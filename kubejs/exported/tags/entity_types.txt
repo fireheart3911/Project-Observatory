@@ -1,0 +1,152 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 3, 2022 9:23:08 PM
+
+#mowziesmobs:barakoa_barako_aligned
+- mowziesmobs:barako
+- mowziesmobs:barakoa_sunblocker
+- mowziesmobs:barakoan_barakoana
+- mowziesmobs:barakoana
+- mowziesmobs:barakoaya
+
+#mowziesmobs:barakoa
+- mowziesmobs:barako
+- mowziesmobs:barakoa_sunblocker
+- mowziesmobs:barakoan_barakoana
+- mowziesmobs:barakoan_player
+- mowziesmobs:barakoa_sunblocker_player
+- mowziesmobs:barakoana
+- mowziesmobs:barakoaya
+
+#per-viam-invenire:replace_vanilla_navigator
+- mekanismadditions:baby_creeper
+- mekanismadditions:baby_enderman
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+- mekanism:robit
+
+#minecraft:impact_projectiles
+- #minecraft:arrows
+- minecraft:snowball
+- minecraft:fireball
+- minecraft:small_fireball
+- minecraft:egg
+- minecraft:trident
+- minecraft:dragon_fireball
+- minecraft:wither_skull
+- mekanism:flame
+
+#minecraft:beehive_inhabitors
+- minecraft:bee
+- resourcefulbees:lead_bee
+- resourcefulbees:dense_gold_bee
+- resourcefulbees:kitten_bee
+- resourcefulbees:yeti_bee
+- resourcefulbees:diamond_bee
+- resourcefulbees:slimy_bee
+- resourcefulbees:dungeon_bee
+- resourcefulbees:draconium_bee
+- resourcefulbees:dense_nickel_bee
+- resourcefulbees:dense_osmium_bee
+- resourcefulbees:tin_bee
+- resourcefulbees:water_bee
+- resourcefulbees:dragon_bee
+- resourcefulbees:redstone_bee
+- resourcefulbees:starry_bee
+- resourcefulbees:rgbee_bee
+- resourcefulbees:glowing_bee
+- resourcefulbees:lava_bee
+- resourcefulbees:dense_platinum_bee
+- resourcefulbees:chaotic_bee
+- resourcefulbees:blazing_bee
+- resourcefulbees:osmium_bee
+- resourcefulbees:iron_bee
+- resourcefulbees:nether_quartz_bee
+- resourcefulbees:ender_bee
+- resourcefulbees:cobbee_bee
+- resourcefulbees:wither_bee
+- resourcefulbees:pigman_bee
+- resourcefulbees:withered_bee
+- resourcefulbees:lapis_bee
+- resourcefulbees:aquamarine_bee
+- resourcefulbees:ghastly_bee
+- resourcefulbees:dense_zinc_bee
+- resourcefulbees:abbee_bee
+- resourcefulbees:gravely_bee
+- resourcefulbees:dirty_bee
+- resourcefulbees:copper_bee
+- resourcefulbees:nickel_bee
+- resourcefulbees:aluminum_bee
+- resourcefulbees:oreo_bee
+- resourcefulbees:fluorite_bee
+- resourcefulbees:emerald_bee
+- resourcefulbees:uranium_bee
+- resourcefulbees:coal_bee
+- resourcefulbees:rainbow_glass_bee
+- resourcefulbees:silver_bee
+- resourcefulbees:stan_bee
+- resourcefulbees:obsidian_bee
+- resourcefulbees:awakened_bee
+- resourcefulbees:salt_baee_bee
+- resourcefulbees:zombie_bee
+- resourcefulbees:dense_silver_bee
+- resourcefulbees:dense_iron_bee
+- resourcefulbees:zinc_bee
+- resourcefulbees:platinum_bee
+- resourcefulbees:netherite_bee
+- resourcefulbees:dense_tin_bee
+- resourcefulbees:mason_bee
+- resourcefulbees:dense_lead_bee
+- resourcefulbees:gold_bee
+- resourcefulbees:dense_copper_bee
+- resourcefulbees:icy_bee
+- resourcefulbees:creeper_bee
+- resourcefulbees:quartz_bee
+- resourcefulbees:dense_uranium_bee
+- resourcefulbees:skeleton_bee
+- resourcefulbees:dense_netherite_bee
+- resourcefulbees:sandy_bee
+- resourcefulbees:cropy_bee
+- resourcefulbees:dragonic_bee
+- resourcefulbees:certus_bee
+- resourcefulbees:icey_bee
+
+#forge:creepers
+- minecraft:creeper
+- mekanismadditions:baby_creeper
+
+#minecraft:skeletons
+- minecraft:skeleton
+- minecraft:stray
+- minecraft:wither_skeleton
+- mekanismadditions:baby_skeleton
+- mekanismadditions:baby_stray
+- mekanismadditions:baby_wither_skeleton
+
+#forge:endermen
+- minecraft:enderman
+- mekanismadditions:baby_enderman
+
+#minecraft:arrows
+- minecraft:arrow
+- minecraft:spectral_arrow
+
+#farmersdelight:horse_feed_users
+- minecraft:horse
+- minecraft:skeleton_horse
+- minecraft:zombie_horse
+- minecraft:donkey
+- minecraft:mule
+- minecraft:llama
+
+#minecraft:raiders
+- minecraft:evoker
+- minecraft:pillager
+- minecraft:ravager
+- minecraft:vindicator
+- minecraft:illusioner
+- minecraft:witch
+
+#industrialforegoing:mob_imprisonment_tool_blacklist
+
+#farmersdelight:dog_food_users
+- minecraft:wolf
