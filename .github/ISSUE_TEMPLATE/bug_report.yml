@@ -15,7 +15,7 @@ body:
       - Normal (Default)
       - Low (Minor Inconvenience)
       - Very Low (Spelling Issues, Recipe Issue, etc.)
-     validations:
+   validations:
        required: true
  - type: dropdown
    id: ram
@@ -41,8 +41,8 @@ body:
       description: >-
         Please add the Modpack version as seen on CurseForge
       placeholder: Release - V.3.9.1.1.
-      validations:
-        required: true
+   validations:
+      required: true
  - type: textarea
    id: issue
    attributes:
@@ -73,7 +73,7 @@ body:
         reproduce an issue, we will be unable to fix the bug, so as much
         information here will help us solve your issue.
       placeholder: 1. Do this, then
-      validations:
+   validations:
       required: true
  - type: textarea
    id: extra-notes
