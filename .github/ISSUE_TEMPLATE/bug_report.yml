@@ -40,7 +40,7 @@ body:
       label: Modpack Version
       description: >-
         Please add the Modpack version as seen on CurseForge
-      placeholder: Release - V.3.9.1.1.
+      placeholder: Release - V.3.9.1.1
    validations:
       required: true
  - type: textarea
