@@ -1,38 +1,89 @@
----
-name: Bug report
-about: Create a report to help us improve
-title: ''
-labels: ''
-assignees: ''
-
----
-
-**Describe the bug**
-A clear and concise description of what the bug is.
-
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
-
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
-
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
+name: Bug Report
+description: Report a bug/crash.
+title: "[Bug] "
+labels:
+  - type/bug
+body:
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Severity
+      description: How severe is the issue?
+      options:
+        - Very High (Critical Vulnerability Exploit) 
+        - High (Gamebreaking Exploits / Crashes)
+        - Normal (Default)
+        - Low (Minor Inconvenience)
+        - Very Low (Spelling Issues, Recipe Issue, etc.)
+    validations:
+      required: true
+  - type: dropdown
+    id: ram
+    attributes:
+      label: Allocated RAM
+      description: How much RAM did you allocate to the modpack?
+      options:
+        - 1 GB or less
+        - 2 GB
+        - 3 GB
+        - 4 GB
+        - 5 GB
+        - 6 GB
+        - 7 GB
+        - 8 GB
+        - 9 GB or more
+    validations:
+      required: true
+  - type: input
+    id: modpack
+    attributes:
+      label: Modpack Version
+      description: >-
+        Please add the Modpack version as seen on CurseForge
+      placeholder: Release - V.3.9.1.1.
+      validations:
+        required: true
+  - type: textarea
+    id: issue
+    attributes:
+      label: What issue are you having?
+      description: >-
+        Please best describe the issue you are having, what should be happening?
+        What is happening? Did you add custom mods, etc. (You can attach
+        screenshots here and it is highly recommend doing so)
+    validations:
+      required: true
+  - type: textarea
+    id: crashlogs
+    attributes:
+      label: Crashlogs
+      description: >-
+        If you are having a crash, please upload logs here.
+        Please use https://pastebin.com or https://hastebin.com.
+      placeholder: >-
+        My crash logs!
+  - type: textarea
+    id: reproducing
+    attributes:
+      label: Steps to reproduce
+      description: >-
+        Please provide as much information as you can in how you can get this
+        bug to happen again, if this bug can only be caused once, consider that
+        it may be a one off issue and might not need reporting. If we can not
+        reproduce an issue, we will be unable to fix the bug, so as much
+        information here will help us solve your issue.
+      placeholder: 1. Do this, then
+    validations:
+      required: true
+  - type: textarea
+    id: extra-notes
+    attributes:
+      label: Anything else to note?
+      description: >-
+        If there is any extra information you'd like to add, this is the place
+        to do so.
+  - type: markdown
+    attributes:
+      value: >-
+        _Disclaimer:_ Not providing enough information will result in your issue being closed
+        with a request to add more information.
