@@ -15,8 +15,8 @@ body:
         - Normal (Default)
         - Low (Minor Inconvenience)
         - Very Low (Spelling Issues, Recipe Issue, etc.)
-    validations:
-      required: true
+     validations:
+       required: true
   - type: dropdown
     id: ram
     attributes:
@@ -32,8 +32,8 @@ body:
         - 7 GB
         - 8 GB
         - 9 GB or more
-    validations:
-      required: true
+     validations:
+       required: true
   - type: input
     id: modpack
     attributes:
