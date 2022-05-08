@@ -4,7 +4,7 @@ title: "[Bug] "
 labels:
   - type/bug
 body:
-  - type: dropdown
+ - type: dropdown
     id: severity
     attributes:
       label: Severity
@@ -17,7 +17,7 @@ body:
         - Very Low (Spelling Issues, Recipe Issue, etc.)
      validations:
        required: true
-  - type: dropdown
+- type: dropdown
     id: ram
     attributes:
       label: Allocated RAM
@@ -34,7 +34,7 @@ body:
         - 9 GB or more
      validations:
        required: true
-  - type: input
+ - type: input
     id: modpack
     attributes:
       label: Modpack Version
@@ -43,7 +43,7 @@ body:
       placeholder: Release - V.3.9.1.1.
       validations:
         required: true
-  - type: textarea
+ - type: textarea
     id: issue
     attributes:
       label: What issue are you having?
@@ -53,7 +53,7 @@ body:
         screenshots here and it is highly recommend doing so)
     validations:
       required: true
-  - type: textarea
+ - type: textarea
     id: crashlogs
     attributes:
       label: Crashlogs
@@ -62,7 +62,7 @@ body:
         Please use https://pastebin.com or https://hastebin.com.
       placeholder: >-
         My crash logs!
-  - type: textarea
+ - type: textarea
     id: reproducing
     attributes:
       label: Steps to reproduce
@@ -82,7 +82,7 @@ body:
       description: >-
         If there is any extra information you'd like to add, this is the place
         to do so.
-  - type: markdown
+ - type: markdown
     attributes:
       value: >-
         _Disclaimer:_ Not providing enough information will result in your issue being closed
