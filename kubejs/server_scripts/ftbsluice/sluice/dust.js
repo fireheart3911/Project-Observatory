@@ -2,14 +2,14 @@ onEvent("recipes", (event) => {
     const sluice = event.recipes.ftbsluice.sluice;
 
     sluice(["cloth"], "#forge:dust", [
-        ["rid:gold_chunk", 0.04],
+        ["mekanism:clump_gold", 0.04],
         ["minecraft:bone_meal", 0.11],
         ["rid:silver_chunk", 0.05],
         ["rid:nickel_chunk", 0.04],
     ]).max(2);
 
     sluice(["iron"], "#forge:dust", [
-        ["rid:gold_chunk", 0.07],
+        ["mekanism:clump_gold", 0.07],
         ["minecraft:bone_meal", 0.16],
         ["minecraft:gunpowder", 0.09],
         ["rid:silver_chunk", 0.09],
@@ -17,7 +17,7 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["gold"], "#forge:dust", [
-        ["rid:gold_chunk", 0.11],
+        ["mekanism:clump_gold", 0.11],
         ["minecraft:bone_meal", 0.21],
         ["minecraft:gunpowder", 0.14],
         ["rid:redstone_chunk", 0.11],
@@ -29,7 +29,7 @@ onEvent("recipes", (event) => {
     ]);
 
     sluice(["diamond"], "#forge:dust", [
-        ["rid:gold_chunk", 0.16],
+        ["mekanism:clump_gold", 0.16],
         ["minecraft:bone_meal", 0.25],
         ["minecraft:gunpowder", 0.19],
         ["rid:redstone_chunk", 0.21],

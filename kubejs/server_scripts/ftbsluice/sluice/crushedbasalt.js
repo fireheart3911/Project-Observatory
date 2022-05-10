@@ -3,14 +3,14 @@ onEvent("recipes", (event) => {
 
     sluice(["gold"], "ftbsluice:crushed_basalt", [
         ["minecraft:netherrack", 0.6],
-        ["tconstruct:debris_nugget", 0.02],
+        ["mekanism:dirty_netherite_scrap", 0.02],
     ])
         .fluid("minecraft:lava")
         .max(1);
 
     sluice(["diamond"], "ftbsluice:crushed_basalt", [
         ["minecraft:netherrack", 0.4],
-        ["tconstruct:debris_nugget", 0.04],
+        ["mekanism:dirty_netherite_scrap", 0.04],
     ])
         .fluid("minecraft:lava")
         .max(1);

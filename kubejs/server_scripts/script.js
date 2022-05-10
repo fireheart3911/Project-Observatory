@@ -5,8 +5,18 @@ settings.logRemovedRecipes = true
 settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
+onEvent('block.loot_tables', event => {
+    event.addSimpleBlock(/minecraft:.*_ore/, 'minecraft:red_sand') // To drop a different item
+  })
+
 onEvent('recipes', event => {
 	
+})
+
+onEvent('player.logged_in', event => {
+    event.server.runCommandSilent(`effect give ${event.player.name} resistence 10 4 true`);
+    event.server.runCommandSilent(`effect give ${event.player.name} slowness 10 40 true`);
+    event.server.runCommandSilent(`effect give ${event.player.name} regeneration 4 10 true`);
 })
 
 onEvent("recipes", (event) => {
