@@ -6,7 +6,7 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 onEvent('block.loot_tables', event => {
-    event.addSimpleBlock(/minecraft:.*_ore/, 'minecraft:red_sand') // To drop a different item
+    event.addSimpleBlock(/minecraft:.*_ore/, 'minecraft:cobblestone') // To drop a different item
   })
 
 onEvent('recipes', event => {
@@ -31,9 +31,7 @@ onEvent("recipes", (event) => {
 
     // the immersive way
     event.recipes.immersiveengineering
-        .arc_furnace(["32x #forge:ingots/cast_iron"], "32x #forge:ingots/iron", ["2x #forge:silicon", "2x #coals"])
-        .energy(102400)
-        .time(200);
+        .arc_furnace(["32x #forge:ingots/cast_iron"], "32x #forge:ingots/iron", ["2x #forge:silicon", "2x #coals"]).energy(102400).time(200);
 });
 
 onEvent("recipes", (event) => {
@@ -45,6 +43,13 @@ onEvent("item.right_click", (event) => {
         event.cancel();
     }
 });
+
+onEvent("item.right_click", (event) => {
+    if (event.item.hasTag("forge:ender_pearls")) {
+        event.cancel();
+    }
+});
+
 
 
 
