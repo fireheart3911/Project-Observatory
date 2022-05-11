@@ -3,7 +3,6 @@ onEvent("recipes", (event) => {
 
     sluice(["gold"], "ftbsluice:crushed_endstone", [
         ["minecraft:chorus_flower", 0.05],
-        ["miniutilities:ender_lily_seeds", 0.06],
         ["betterendforge:crystal_shards", 0.07],
         ["betterendforge:glowing_bulb", 0.08],
         ["betterendforge:lumecorn_rod", 0.07],
