@@ -34,6 +34,6 @@ onEvent("recipes", (event) => {
         ["minecraft:gold_ingot", 0.18],
         ["2x minecraft:redstone", 0.23],
         ["moremekanismprocessing:clump_silver", 0.17],
-        ["moremekanismprocessing:clump_nickel", 0.16],s
+        ["moremekanismprocessing:clump_nickel", 0.16],
     ]).fluid("minecraft:lava");
 });

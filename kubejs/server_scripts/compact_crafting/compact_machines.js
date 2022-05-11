@@ -304,146 +304,146 @@ onEvent('recipes', event => {
 				},
 			},
 			"outputs": [{id:"compactmachines:machine_large",Count:1}]
-		  });
-
-		  //Giant Machine
-		  event.custom({
-			  "type": "compactcrafting:miniaturization",
-			  "recipeSize": 9,
-			  "layers": [
-				{
-					"type": "compactcrafting:filled",
-					"component": "C"
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "F", "F", "F", "F", "F", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "F", "F", "F", "F", "F", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "F", "F", "F", "-", "-", "H"],
-						["H", "-", "-", "F", "D", "F", "-", "-", "H"],
-						["H", "-", "-", "F", "F", "F", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "F", "D", "F", "-", "-", "H"],
-						["H", "-", "-", "D", "B", "D", "-", "-", "H"],
-						["H", "-", "-", "F", "D", "F", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "F", "F", "F", "-", "-", "H"],
-						["H", "-", "-", "F", "D", "F", "-", "-", "H"],
-						["H", "-", "-", "F", "F", "F", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "-", "-", "-", "-", "-", "-", "-", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:mixed",
-					"pattern": [
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"],
-						["H", "F", "F", "F", "F", "F", "F", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "-", "-", "-", "-", "-", "F", "H"],
-						["H", "F", "F", "F", "F", "F", "F", "F", "H"],
-						["C", "H", "H", "H", "H", "H", "H", "H", "C"]
-					]
-				},
-				{
-					"type": "compactcrafting:filled",
-					"component": "C"
-				}
-			],
-			"catalyst": {id:"compactmachines:personal_shrinking_device",Count:1},
-			"components": {
-				"B": {
-					"type": "compactcrafting:block",
-					"block": "compactmachines:machine_large"
-				},
-				"C": {
-					"type": "compactcrafting:block",
-					"block": "compactmachines:wall"
-				  },
-				"D": {
-					"type": "compactcrafting:block",
-					"block": "extendedcrafting:frame"
-				},
-				"F": {
-					"type": "compactcrafting:block",
-					"block": "extendedcrafting:black_iron_block"
-				},
-				"H": {
-					"type": "compactcrafting:block",
-					"block": "cyclic:dark_glass_connected"
-				},
-			},
-			"outputs": [{id:"compactmachines:machine_giant",Count:1}]
 		  })
-		  
+
+		//Giant Machine
+		event.custom({
+			"type": "compactcrafting:miniaturization",
+			"recipeSize": 9,
+			"layers": [
+			  {
+				  "type": "compactcrafting:filled",
+				  "component": "C"
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "F", "F", "F", "F", "F", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "F", "F", "F", "F", "F", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "F", "F", "F", "-", "-", "H"],
+					  ["H", "-", "-", "F", "D", "F", "-", "-", "H"],
+					  ["H", "-", "-", "F", "F", "F", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "F", "D", "F", "-", "-", "H"],
+					  ["H", "-", "-", "D", "B", "D", "-", "-", "H"],
+					  ["H", "-", "-", "F", "D", "F", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "F", "F", "F", "-", "-", "H"],
+					  ["H", "-", "-", "F", "D", "F", "-", "-", "H"],
+					  ["H", "-", "-", "F", "F", "F", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "-", "-", "-", "-", "-", "-", "-", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:mixed",
+				  "pattern": [
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"],
+					  ["H", "F", "F", "F", "F", "F", "F", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "-", "-", "-", "-", "-", "F", "H"],
+					  ["H", "F", "F", "F", "F", "F", "F", "F", "H"],
+					  ["C", "H", "H", "H", "H", "H", "H", "H", "C"]
+				  ]
+			  },
+			  {
+				  "type": "compactcrafting:filled",
+				  "component": "C"
+			  }
+		  ],
+		  "catalyst": {id:"compactmachines:personal_shrinking_device",Count:1},
+		  "components": {
+			  "B": {
+				  "type": "compactcrafting:block",
+				  "block": "compactmachines:machine_large"
+			  },
+			  "C": {
+				  "type": "compactcrafting:block",
+				  "block": "compactmachines:wall"
+				},
+			  "D": {
+				  "type": "compactcrafting:block",
+				  "block": "extendedcrafting:frame"
+			  },
+			  "F": {
+				  "type": "compactcrafting:block",
+				  "block": "extendedcrafting:black_iron_block"
+			  },
+			  "H": {
+				  "type": "compactcrafting:block",
+				  "block": "cyclic:dark_glass_connected"
+			  },
+		  },
+		  "outputs": [{id:"compactmachines:machine_giant",Count:1}]
+		})
+ 
 })
 
 

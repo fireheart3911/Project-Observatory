@@ -11,7 +11,6 @@ onEvent("recipes", (event) => {
         ["mekanism:clump_tin", 0.1],
         ["mekanism:dust_fluorite", 0.1],
         ["mekanism:clump_osmium", 0.06],
-        ["mekanism:clump_aluminium", 0.09],
     ]).max(2); //.time().mb();
 
     sluice(["iron"], "minecraft:gravel", [
@@ -24,7 +23,6 @@ onEvent("recipes", (event) => {
         ["mekanism:clump_tin", 0.12],
         ["mekanism:dust_fluorite", 0.15],
         ["mekanism:clump_osmium", 0.09],
-        ["mekanism:clump_aluminium", 0.13],
     ]);
 
     sluice(["gold"], "minecraft:gravel", [
