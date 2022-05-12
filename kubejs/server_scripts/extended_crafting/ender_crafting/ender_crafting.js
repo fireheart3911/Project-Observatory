@@ -11,7 +11,7 @@ onEvent("recipes", (event) => {
             "item": "minecraft:diamond_block"
           },
           "B": {
-            "item": "compactmachines:machine_large"
+            "item": "minecraft:totem_of_undying"
           },
           "C": {
             "item": "cyclic:gem_obsidian"
@@ -43,6 +43,31 @@ onEvent("recipes", (event) => {
         },
         "result": {
           "item": "cyclic:heart"
+        }
+      })
+      event.custom({
+        "type": "extendedcrafting:shaped_ender_crafter",
+        "pattern": [
+          "AAA",
+          "BCB",
+          "BDB"
+        ],
+        "key": {
+          "A": {
+            "item": "ftbjarmod:cast_iron_block"
+          },
+          "B": {
+            "item": "minecraft:dark_oak_wood"
+          },
+          "C": {
+            "item": "ftbsluice:iron_hammer"
+          },
+          "D": {
+            "item": "minecraft:shears"
+          }
+        },
+        "result": {
+          "item": "minecraft:smithing_table"
         }
       })
     })

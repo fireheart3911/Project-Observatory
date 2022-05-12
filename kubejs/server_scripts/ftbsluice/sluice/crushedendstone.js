@@ -10,7 +10,8 @@ onEvent("recipes", (event) => {
 
     sluice(["diamond"], "ftbsluice:crushed_endstone", [
         ["minecraft:chorus_flower", 0.12],
-        ["draconicevolution:awakened_draconium_dust", 0.12],
+        ["minecraft:ender_pearl", 0.14],
+        ["draconicevolution:awakened_draconium_dust", 0.02],
         ["draconicevolution:draconium_dust", 0.05],
         ["minecraft:shulker_shell", 0.02],
     ]);

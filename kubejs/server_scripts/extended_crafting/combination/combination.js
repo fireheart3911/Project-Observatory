@@ -177,5 +177,56 @@ onEvent('recipes', (event) => {
                 "item": "extendedcrafting:ender_crafter"
               }
             })
+            event.custom({
+              "type": "extendedcrafting:combination",
+              "powerCost": 100000,
+              "input": {
+                "item": "minecraft:nether_star"
+              },
+              "ingredients": [
+                {
+                  "item": "draconicevolution:awakened_draconium_block"
+                },
+                {
+                  "item": "cyclic:apple_emerald"
+                },
+                {
+                  "item": "farmersdelight:melon_juice"
+                },
+                {
+                  "item": "cyclic:charm_antipotion"
+                },
+                {
+                  "item": "cyclic:apple_diamond"
+                },
+                {
+                  "item": "cyclic:apple_diamond"
+                },
+                {
+                  "item": "aquaculture:neptunium_ingot"
+                },
+                {
+                  "item": "aquaculture:neptunium_ingot"
+                },
+                {
+                  "item": "sophisticatedbackpacks:everlasting_upgrade"
+                },
+                {
+                  "type": "forge:nbt",
+                  "item": "immersiveengineering:potion_bucket",
+                  "count": 1,
+                  "nbt": "{Potion:\"minecraft:strong_healing\"}"
+                },
+                {
+                  "item": "draconicevolution:awakened_draconium_block"
+                },
+                {
+                  "item": "cyclic:apple_emerald"
+                }
+              ],
+              "result": {
+                "item": "minecraft:totem_of_undying"
+              }
+            })
 
     })

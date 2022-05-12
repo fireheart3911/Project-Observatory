@@ -36,7 +36,7 @@ onEvent("recipes", (event) => {
         ["mekanism:clump_lead", 0.13],
         ["mekanism:dust_tin", 0.14],
         ["mekanism:dust_uranium", 0.13],
-        ["mekanism:block_uranium", 0.07],
+        ["mekanism:block_uranium", 0.007],
         ["mekanism:clump_osmium", 0.13],
     ]);
 
@@ -54,7 +54,7 @@ onEvent("recipes", (event) => {
         ["mekanism:clump_uranium", 0.12],
         ["mekanism:shard_uranium", 0.09],
         ["mekanism:clump_osmium", 0.17],
-        ["mekanism:clump_titanium", 0.14],
+        ["moremekanismprocessing:clump_titanium", 0.14],
     ]);
 
     sluice(["blazing"], "minecraft:gravel", [

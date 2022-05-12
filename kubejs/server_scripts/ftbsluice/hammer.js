@@ -37,13 +37,6 @@ onEvent("recipes", (event) => {
     hammer("#resource:basalt/3x", ["729x ftbsluice:crushed_basalt"]);
     hammer("#resource:endstone/3x", ["729x ftbsluice:crushed_endstone"]);
 
-    event.recipes.immersiveengineering.crusher("minecraft:dirt", "#forge:gravel");
-    event.recipes.immersiveengineering.crusher("minecraft:sand", "minecraft:dirt");
-    event.recipes.immersiveengineering.crusher("ftbsluice:dust", "#forge:sand");
-
-
-    event.recipes.mekanism.crushing("minecraft:dirt", "#forge:gravel");
-    event.recipes.mekanism.crushing("minecraft:sand", "minecraft:dirt");
     event.recipes.mekanism.crushing("ftbsluice:dust", "#forge:sand");
 
     event.recipes.mekanism.crushing("ftbsluice:crushed_netherrack", "#forge:netherrack");
