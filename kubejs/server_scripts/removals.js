@@ -52,6 +52,7 @@ events.listen('recipes', function (event) {
 	event.remove({output: 'better_diving:improved_wetsuit_leggings'})
 	event.remove({output: 'better_diving:ultra_glide_fins'})
 	event.remove({output: 'better_diving:ultra_glide_fins_leggings'})
+	event.remove({output: 'better_diving:seamoth'})
 	event.remove({output: 'minecraft:netherite_helmet'})
 	event.remove({output: 'minecraft:netherite_chestplate'})
 	event.remove({output: 'minecraft:netherite_leggings'})
