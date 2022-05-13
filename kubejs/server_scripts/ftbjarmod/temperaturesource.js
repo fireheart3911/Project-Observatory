@@ -44,22 +44,7 @@ onEvent("recipes", (event) => {
     source("none", "minecraft:respawn_anchor", 4.0);
 
     //Low temp
-    sourcewithitem(
-        "low",
-        "minecraft:wall_torch",
-        {
-            item: "minecraft:torch",
-            nbt: {
-                display: {
-                    Name: '{"translate": "block.minecraft.wall_torch"}',
-                },
-            },
-        },
-        0.9
-    );
-
-    source("low", "minecraft:torch", 1.0);
-    source("low", "minecraft:campfire[lit=true]", 1.25);
+    source("low", "minecraft:campfire[lit=true]", 0.5);
     sourcewithitem(
         "low",
         "minecraft:fire",
@@ -71,14 +56,14 @@ onEvent("recipes", (event) => {
                 },
             },
         },
-        1.25
+        0.25
     );
 
-    sourcewithitem("low", "minecraft:lava", "minecraft:lava_bucket", 2.0);
-    source("low", "minecraft:magma_block", 3.0);
+    sourcewithitem("low", "minecraft:lava", "minecraft:lava_bucket", 1.0);
+    source("low", "minecraft:magma_block", 1.25);
 
     //High temp
-    source("high", "minecraft:soul_campfire[lit=true]", 1.0);
+    source("high", "minecraft:soul_campfire[lit=true]", 0.5);
     sourcewithitem(
         "high",
         "minecraft:soul_fire",
@@ -90,14 +75,14 @@ onEvent("recipes", (event) => {
                 },
             },
         },
-        1.0
+        0.25
     );
     source("high", "ftbjarmod:blue_magma_block", 2.0);
-    source("high", "minecraft:beacon", 5.0);
+    source("high", "minecraft:beacon", 1.0);
 
     //Sub temp
-    source("subzero", "minecraft:ice", 0.75);
-    source("subzero", "minecraft:packed_ice", 1.0);
-    source("subzero", "minecraft:blue_ice", 2.0);
-    source("subzero", "powah:dry_ice", 4.0);
+    source("subzero", "minecraft:ice", 0.25);
+    source("subzero", "minecraft:packed_ice", 0.75);
+    source("subzero", "minecraft:blue_ice", 1.0);
+    source("subzero", "betterendforge:ancient_emerald_ice", 2.0);
 });

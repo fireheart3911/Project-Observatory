@@ -229,4 +229,81 @@ onEvent('recipes', (event) => {
               }
             })
 
+          //Refined Obsidian Sword
+          event.custom({
+            "type": "extendedcrafting:combination",
+            "powerCost": 10000,
+            "input": {
+              "item": "betterendforge:aeternium_sword"
+            },
+            "ingredients": [
+              {
+                "item": "minecraft:netherite_block"
+              },
+              {
+                "item": "minecraft:netherite_block"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "extendedcrafting:crystaltine_block"
+              },
+              {
+                "item": "extendedcrafting:crystaltine_block"
+              },
+              {
+                "item": "mekanism:block_refined_obsidian"
+              },
+              {
+                "item": "mekanism:block_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "mekanism:block_refined_obsidian"
+              },
+              {
+                "item": "mekanism:block_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "extendedcrafting:crystaltine_block"
+              },
+              {
+                "item": "extendedcrafting:crystaltine_block"
+              },
+              {
+                "item": "minecraft:netherite_block"
+              },
+              {
+                "item": "minecraft:netherite_block"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              },
+              {
+                "item": "mekanism:enriched_refined_obsidian"
+              }
+            ],
+            "result": {
+              "item": "mekanismtools:refined_obsidian_sword"
+            }
+          })
+
+          //Crystallized Obsidian Sword
+          event.custom()
+
     })

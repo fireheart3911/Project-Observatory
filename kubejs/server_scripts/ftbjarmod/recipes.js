@@ -106,4 +106,6 @@ onEvent("recipes", (event) => {
     jar("16x minecraft:iron_ingot", [Fluid.of("minecraft:water", 100), "16x #forge:ingots/cast_iron"])
         .time(60)
         .highTemp();
+    jar(Fluid.of("minecraft:water", 2500), ["resourcefulbees:water_honeycomb"]).time(450);
+    jar(Fluid.of("minecraft:lava", 5000), ["4x resourcefulbees:lava_honeycomb"]).time(2400);
 });
