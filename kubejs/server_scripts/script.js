@@ -28,10 +28,6 @@ onEvent("recipes", (event) => {
     // the mekanism way
     event.smelting("#forge:ingots/cast_iron", "mekanism:enriched_iron");
     event.blasting("#forge:ingots/cast_iron", "mekanism:enriched_iron");
-
-    // the immersive way
-    event.recipes.immersiveengineering
-        .arc_furnace(["32x #forge:ingots/cast_iron"], "32x #forge:ingots/iron", ["2x #forge:silicon", "2x #coals"]).energy(102400).time(200);
 });
 
 onEvent("recipes", (event) => {

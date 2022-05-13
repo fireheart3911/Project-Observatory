@@ -16,24 +16,18 @@ onEvent("recipes", (event) => {
         ["mekanism:clump_gold", 0.11],
         ["minecraft:bone_meal", 0.21],
         ["minecraft:gunpowder", 0.14],
-        ["minecraft:redstone", 0.11],
-        ["moremekanismprocessing:clump_silver", 0.13],
-        ["moremekanismprocessing:clump_nickel", 0.11],
+        ["minecraft:redstone", 0.11]
     ]);
 
     sluice(["diamond"], "#forge:dust", [
         ["mekanism:clump_gold", 0.16],
         ["minecraft:bone_meal", 0.25],
         ["minecraft:gunpowder", 0.19],
-        ["minecraft:redstone", 0.21],
-        ["moremekanismprocessing:clump_silver", 0.15],
-        ["moremekanismprocessing:clump_nickel", 0.14],
+        ["minecraft:redstone", 0.21]
     ]);
 
     sluice(["blazing"], "#forge:dust", [
         ["minecraft:gold_ingot", 0.18],
-        ["2x minecraft:redstone", 0.23],
-        ["moremekanismprocessing:clump_silver", 0.17],
-        ["moremekanismprocessing:clump_nickel", 0.16],
+        ["2x minecraft:redstone", 0.23]
     ]).fluid("minecraft:lava");
 });

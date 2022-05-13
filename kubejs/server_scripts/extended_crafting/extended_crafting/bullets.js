@@ -15,7 +15,8 @@ onEvent("recipes", (event) => {
           }
         },
         "result": {
-          "item": "cgm:advanced_bullet"
+          "item": "cgm:advanced_bullet",
+          "count": 28
         }
       })
     event.custom({
@@ -34,7 +35,8 @@ onEvent("recipes", (event) => {
           }
         },
         "result": {
-          "item": "cgm:basic_bullet"
+          "item": "cgm:basic_bullet",
+          "count": 36
         }
       })
       event.custom({
@@ -53,7 +55,8 @@ onEvent("recipes", (event) => {
           }
         },
         "result": {
-          "item": "cgm:shell"
+          "item": "cgm:shell",
+          "count": 32
         }
       })
 
