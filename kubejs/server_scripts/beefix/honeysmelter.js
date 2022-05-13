@@ -91,4 +91,136 @@ onEvent("recipes", (event) => {
           "item": "minecraft:wither_skeleton_skull",
         }
       })
+    
+
+    //RGBee Honeycomb
+    event.shaped('16x minecraft:white_dye', [
+      ' A ',
+      ' A ',
+      ' A '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:orange_dye', [
+      ' A ',
+      ' A ',
+      '  A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:magenta_dye', [
+      'A  ',
+      ' A ',
+      '  A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:light_blue_dye', [
+      'A  ',
+      ' AA',
+      '   '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:yellow_dye', [
+      '   ',
+      'AAA',
+      '   '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:lime_dye', [
+      '  A',
+      'AA ',
+      '   '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:pink_dye', [
+      '  A',
+      ' A ',
+      'A  '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:gray_dye', [
+      ' A ',
+      ' A ',
+      'A  '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:light_gray_dye', [
+      'AAA',
+      '   ',
+      '   '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:cyan_dye', [
+      '   ',
+      '   ',
+      'AAA'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:purple_dye', [
+      'A  ',
+      'A  ',
+      'A  '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:blue_dye', [
+      '  A',
+      '  A',
+      '  A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:brown_dye', [
+      '   ',
+      'AA ',
+      '  A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:green_dye', [
+      '   ',
+      ' AA',
+      'A  '
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:red_dye', [
+      '   ',
+      ' A ',
+      'A A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+
+    event.shaped('16x minecraft:black_dye', [
+      '  A',
+      ' A ',
+      '  A'
+    ], {
+      A: 'resourcefulbees:rgbee_honeycomb',
+    })
+    
+    
 })
