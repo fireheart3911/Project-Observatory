@@ -108,4 +108,5 @@ onEvent("recipes", (event) => {
         .highTemp();
     jar(Fluid.of("minecraft:water", 2500), ["resourcefulbees:water_honeycomb"]).time(450);
     jar(Fluid.of("minecraft:lava", 5000), ["4x resourcefulbees:lava_honeycomb"]).time(2400);
+    jar("mekanism:dirty_netherite_scrap", ["mekanism:block_osmium","better_diving:titanium_block","compressedblocks:c4_iron"]).time(14400).highTemp();
 });

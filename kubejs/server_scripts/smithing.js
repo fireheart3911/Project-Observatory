@@ -82,25 +82,25 @@ onEvent('recipes', event => {
     event.custom({
         "type": "minecraft:smithing",
         "base": {"item": "betterendforge:crystalite_helmet"},
-        "addition": {"item": "betterendforge:eternal_crystal"},
+        "addition": {"item": "betterendforge:aeternium_ingot"},
         "result": {"item": "betterendforge:aeternium_helmet"}
     })
     event.custom({
         "type": "minecraft:smithing",
         "base": {"item": "betterendforge:crystalite_chestplate"},
-        "addition": {"item": "betterendforge:eternal_crystal"},
+        "addition": {"item": "betterendforge:aeternium_ingot"},
         "result": {"item": "betterendforge:aeternium_chestplate"}
     })
     event.custom({
         "type": "minecraft:smithing",
         "base": {"item": "betterendforge:crystalite_leggings"},
-        "addition": {"item": "betterendforge:eternal_crystal"},
+        "addition": {"item": "betterendforge:aeternium_ingot"},
         "result": {"item": "betterendforge:aeternium_leggings"}
     })
     event.custom({
         "type": "minecraft:smithing",
         "base": {"item": "betterendforge:crystalite_boots"},
-        "addition": {"item": "betterendforge:eternal_crystal"},
+        "addition": {"item": "betterendforge:aeternium_ingot"},
         "result": {"item": "betterendforge:aeternium_boots"}
     })
 

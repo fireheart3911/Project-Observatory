@@ -3,11 +3,11 @@
 [additions]
 	#TCP port for the Voice server to listen on.
 	#Range: 1 ~ 65535
-	VoicePort = 36123
+	VoicePort = 15457
 	#Radius of the explosion of Obsidian TNT.
 	obsidianTNTBlastRadius = 12
 	#Enables the voice server for Walkie Talkies.
-	voiceServerEnabled = false
+	voiceServerEnabled = true
 	#Fuse time for Obsidian TNT.
 	#Range: > 0
 	obsidianTNTDelay = 100

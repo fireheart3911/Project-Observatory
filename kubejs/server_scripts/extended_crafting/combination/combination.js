@@ -304,6 +304,77 @@ onEvent('recipes', (event) => {
           })
 
           //Crystallized Obsidian Sword
-          event.custom()
+          event.custom({
+            "type": "extendedcrafting:combination",
+            "powerCost": 100000,
+            "input": {
+              "item": "mekanismtools:refined_obsidian_sword"
+            },
+            "ingredients": [
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "betterendforge:eternal_crystal"
+              },
+              {
+                "item": "betterendforge:eternal_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "betterendforge:eternal_crystal"
+              },
+              {
+                "item": "betterendforge:eternal_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "betterendforge:aurora_crystal"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              },
+              {
+                "item": "cyclic:gem_obsidian"
+              }
+            ],
+            "result": {
+              "item": "cyclic:crystal_sword"
+            }
+          })
 
-    })
+    })  
