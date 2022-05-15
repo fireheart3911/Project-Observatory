@@ -1,0 +1,715 @@
+{
+	id: "6F7897EBB897F618"
+	group: ""
+	order_index: 4
+	filename: "equipment"
+	title: "Equipment"
+	icon: {
+		id: "mekanismtools:refined_obsidian_sword"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -4.5d
+			dependencies: ["5540CECE319FA5C5"]
+			id: "3B4A97265DA795AC"
+			tasks: [
+				{
+					id: "3FC7165FDBBA41C6"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "3EB44345BAEC8BC8"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "3BA1C7634C529FE3"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "4A1A50E59EA2B6CE"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Diamond Armor"
+			x: -7.0d
+			y: -4.5d
+			dependencies: ["3B4A97265DA795AC"]
+			id: "0FF0ADCE6987F1E9"
+			tasks: [
+				{
+					id: "336FD260D0B10FB5"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "3BFDE9F9F8F26C5D"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "15AB60459DF09DDB"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "35B5B3593A69281C"
+					type: "item"
+					item: {
+						id: "minecraft:diamond_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Neptunium Armor"
+			x: -5.0d
+			y: -4.5d
+			dependencies: ["0FF0ADCE6987F1E9"]
+			id: "3BD935EAD5FE2D21"
+			tasks: [
+				{
+					id: "3439039A083237D0"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "74E1F926E57B8852"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "423669BCA063065F"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "2D6543C0012FDE63"
+					type: "item"
+					item: {
+						id: "aquaculture:neptunium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Netherite Armor"
+			x: -3.0d
+			y: -4.5d
+			dependencies: ["3BD935EAD5FE2D21"]
+			id: "4BB57AC203D7DBE4"
+			tasks: [
+				{
+					id: "019DCF1546579C59"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "32D3A4D60C8ED305"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "4EB5977C39B2F911"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "10E890B6E4B202AC"
+					type: "item"
+					item: {
+						id: "minecraft:netherite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Terminite Armor"
+			x: -1.0d
+			y: -4.5d
+			dependencies: ["4BB57AC203D7DBE4"]
+			id: "31233B73685232F0"
+			tasks: [
+				{
+					id: "699A4A26E052AF37"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "7FFB6C99E9CA8144"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "495BBA35095E5B75"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "12B07CB0FF0F0503"
+					type: "item"
+					item: {
+						id: "betterendforge:terminite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Crystalite Armor"
+			x: 1.0d
+			y: -4.5d
+			dependencies: ["31233B73685232F0"]
+			id: "75919EA980756291"
+			tasks: [
+				{
+					id: "34275061FC898B93"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "58AEBE19BB31B3EA"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "70B27DBBAA343DD2"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "60A84B536CA42803"
+					type: "item"
+					item: {
+						id: "betterendforge:crystalite_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			title: "Aeternium Armor"
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["75919EA980756291"]
+			id: "2F7D53E86468D982"
+			tasks: [
+				{
+					id: "0B22F5D3C463E4F7"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "067876DAA9234CBA"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "1092019AEAAC7785"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "1D365A0CE96F3126"
+					type: "item"
+					item: {
+						id: "betterendforge:aeternium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.0d
+			dependencies: ["5540CECE319FA5C5"]
+			id: "773A70B3B1EAB238"
+			tasks: [{
+				id: "0473E766A12077E5"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -7.0d
+			y: -3.0d
+			dependencies: ["773A70B3B1EAB238"]
+			id: "7E3F09DDD14E7834"
+			tasks: [{
+				id: "4A34B5A574D97A57"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			dependencies: ["3CDE6DB15D3C3662"]
+			id: "31A082CF10D229CC"
+			tasks: [{
+				id: "35CE44B146C9B108"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -3.0d
+			dependencies: ["7E3F09DDD14E7834"]
+			id: "7B99CF11D69D475D"
+			tasks: [{
+				id: "3F73ADE39944A4DF"
+				type: "item"
+				item: {
+					id: "betterendforge:terminite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -3.0d
+			y: -3.0d
+			dependencies: ["7B99CF11D69D475D"]
+			id: "61294245F9D14ACC"
+			tasks: [{
+				id: "1CF121A06FB37CEF"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			dependencies: ["61294245F9D14ACC"]
+			id: "3CDE6DB15D3C3662"
+			tasks: [{
+				id: "06993029870644D2"
+				type: "item"
+				item: {
+					id: "betterendforge:aeternium_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 3.0d
+			y: -3.0d
+			dependencies: ["31A082CF10D229CC"]
+			id: "12202DA8F557CE60"
+			tasks: [{
+				id: "0C5DC8964568E87A"
+				type: "item"
+				item: {
+					id: "mekanismtools:refined_obsidian_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -3.0d
+			dependencies: ["12202DA8F557CE60"]
+			id: "57F04EB6DCD6487A"
+			tasks: [{
+				id: "768682976230F8F0"
+				type: "item"
+				item: {
+					id: "cyclic:crystal_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 7.0d
+			y: -3.0d
+			dependencies: ["57F04EB6DCD6487A"]
+			id: "16079FA21AEBABDD"
+			tasks: [{
+				id: "21F4D9003C465D26"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-343788750
+									1832665298
+									-1416873717
+									399347880
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 9.0d
+			y: -3.0d
+			dependencies: ["16079FA21AEBABDD"]
+			id: "46EB78DDF245C369"
+			tasks: [{
+				id: "69C8C080AD2BA02E"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1176614599
+									560352375
+									-1105701913
+									910219089
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 11.0d
+			y: -3.0d
+			dependencies: ["46EB78DDF245C369"]
+			id: "7326C2F266FB01C5"
+			tasks: [{
+				id: "37DFB563680397BC"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-753069996
+									-2124330226
+									-2027460225
+									638823757
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: 5.0d
+			y: -4.5d
+			dependencies: ["2F7D53E86468D982"]
+			id: "6D4FA27B12806C7F"
+			tasks: [{
+				id: "573C6B3965B3BFB8"
+				type: "item"
+				item: "draconicevolution:wyvern_undying_module"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -4.5d
+			dependencies: ["6D4FA27B12806C7F"]
+			id: "541E21C91B9C9F1B"
+			tasks: [{
+				id: "47DC723B6FCDDBD5"
+				type: "item"
+				item: "draconicevolution:draconic_undying_module"
+			}]
+		}
+		{
+			x: 9.0d
+			y: -4.5d
+			dependencies: ["541E21C91B9C9F1B"]
+			id: "3DC563A6F3C68DE2"
+			tasks: [{
+				id: "1DC2D979BF7A83B3"
+				type: "item"
+				item: "draconicevolution:chaotic_undying_module"
+			}]
+		}
+		{
+			x: 11.0d
+			y: -4.5d
+			dependencies: ["3DC563A6F3C68DE2"]
+			id: "4002E4F0336ABBE5"
+			tasks: [{
+				id: "0B614223FCB18AFE"
+				type: "item"
+				item: {
+					id: "cyclic:soulstone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

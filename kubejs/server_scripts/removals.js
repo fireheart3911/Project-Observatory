@@ -82,6 +82,7 @@ events.listen('recipes', function (event) {
 	event.remove({output: 'minecraft:diamond_chestplate'})
 	event.remove({output: 'minecraft:diamond_leggings'})
 	event.remove({output: 'minecraft:diamond_boots'})
+	event.remove({output: 'cgm:workbench'})
 	event.remove({output: 'sophisticatedbackpacks:inception_upgrade'})
 	event.remove({output: ''})
 	event.remove({mod: 'cobblefordays'})

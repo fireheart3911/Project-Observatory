@@ -373,7 +373,7 @@ onEvent('recipes', (event) => {
               }
             ],
             "result": {
-              "item": "cyclic:crystallized_obsidian_sword"
+              "item": "cyclic:crystal_sword"
             }
           })
 

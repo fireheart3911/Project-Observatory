@@ -1,0 +1,478 @@
+{
+	id: "797B930F5777D449"
+	group: ""
+	order_index: 0
+	filename: "story"
+	title: "A slightly larger task"
+	icon: "minecraft:glass"
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to Project Observatory!"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/feather.png"
+				}
+			}
+			x: -9.0d
+			y: -0.5d
+			shape: "rsquare"
+			subtitle: "Made by fireheart3911_, TheIceStrike and InsaneStrategist"
+			description: [
+				"You are a team of military scientists, dropped on an aquatic planet. Mission Control tasked you and your team to recover an old observatory and start experiments there."
+				""
+				"Nobody knows what happened to that old base, but we have the Intelligence that there are some kind of creatures inhabiting the structure."
+				""
+				"Will you manage to survive the nautical environment and bring back the rarities that this planet conceals?"
+				""
+				"Good Luck, Have Fun and Stay Alive out there!"
+			]
+			size: 2.0d
+			id: "5540CECE319FA5C5"
+			tasks: [{
+				id: "16D672566F229146"
+				type: "checkmark"
+				title: "Confirm"
+			}]
+		}
+		{
+			icon: "mowziesmobs:wrought_helmet"
+			x: -4.5d
+			y: -0.5d
+			dependencies: ["024459A4151F35E7"]
+			hide: true
+			hide_text_until_complete: true
+			id: "1AB753079DDA771D"
+			tasks: [
+				{
+					id: "3FF61D43C2F28013"
+					type: "kill"
+					title: "Defeat the holder of the disk"
+					icon: "mowziesmobs:wrought_helmet"
+					entity: "mowziesmobs:ferrous_wroughtnaut"
+					value: 1L
+				}
+				{
+					id: "40ED0061465E79D1"
+					type: "item"
+					item: "mowziesmobs:wrought_helmet"
+					consume_items: true
+				}
+				{
+					id: "5AAFBA59DE90D7A6"
+					type: "item"
+					item: "mowziesmobs:wrought_axe"
+					consume_items: true
+				}
+			]
+			rewards: [{
+				id: "2EDD50052E252B9C"
+				type: "item"
+				item: "mekanism:qio_drive_hyper_dense"
+			}]
+		}
+		{
+			title: "Spiders, Cults and an angry god"
+			icon: "minecraft:cobweb"
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["6DD7810929760096"]
+			id: "11A731C9D4D22B27"
+			tasks: [
+				{
+					id: "22C4B8EC0A9EE6DD"
+					type: "kill"
+					icon: "minecraft:spider_eye"
+					entity: "minecraft:cave_spider"
+					value: 15L
+				}
+				{
+					id: "3EB128EC6BD5992D"
+					type: "item"
+					item: "minecraft:string"
+					count: 10L
+					consume_items: true
+				}
+				{
+					id: "0CDDEA9E03180661"
+					type: "item"
+					item: "ftbsluice:dust"
+					count: 5L
+					consume_items: true
+				}
+				{
+					id: "139BC0627A66EA00"
+					type: "item"
+					item: "minecraft:mossy_cobblestone"
+					count: 20L
+					consume_items: true
+				}
+				{
+					id: "64E95943232FACBF"
+					type: "kill"
+					title: "Defeat a Cage Guardian"
+					icon: {
+						id: "ftbquests:custom_icon"
+						Count: 1b
+						tag: {
+							Icon: "minecraft:textures/item/golden_axe.png"
+						}
+					}
+					entity: "minecraft:piglin_brute"
+					value: 1L
+				}
+				{
+					id: "1B8F8475B586397C"
+					type: "item"
+					item: "mowziesmobs:barako_mask"
+					consume_items: true
+				}
+			]
+			rewards: [
+				{
+					id: "1D5D5B47D2F8FFE6"
+					type: "item"
+					team_reward: false
+					item: "atmadditions:atm_star_shard"
+				}
+				{
+					id: "6735C9879916EF95"
+					type: "item"
+					item: "curios:ring"
+				}
+			]
+		}
+		{
+			title: "Diving down"
+			x: -7.5d
+			y: -0.5d
+			dependencies: ["5540CECE319FA5C5"]
+			id: "6DD7810929760096"
+			tasks: [{
+				id: "3E079FD1A3F58C8B"
+				type: "stat"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cyclic:textures/mob_effect/swimspeed.png"
+					}
+				}
+				stat: "minecraft:swim_one_cm"
+				value: 10
+			}]
+		}
+		{
+			title: "That ain't no honey...."
+			x: -5.5d
+			y: -0.5d
+			dependencies: ["11A731C9D4D22B27"]
+			id: "024459A4151F35E7"
+			tasks: [{
+				id: "328F6F6069D911C9"
+				type: "item"
+				item: "resourcefulbees:bee_jar"
+			}]
+		}
+		{
+			title: "That is really meshed up..."
+			x: -3.5d
+			y: -0.5d
+			dependencies: ["1AB753079DDA771D"]
+			id: "32A9B3D198DA4873"
+			tasks: [{
+				id: "292D85365F9AE280"
+				type: "item"
+				item: "ftbsluice:cloth_mesh"
+				consume_items: true
+				only_from_crafting: true
+			}]
+		}
+		{
+			x: -2.5d
+			y: -0.5d
+			dependencies: ["32A9B3D198DA4873"]
+			id: "1A4D1BDE98F6D438"
+			tasks: [{
+				id: "680594D273F5465C"
+				type: "item"
+				item: "ftbjarmod:auto_processing_block"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			dependencies: ["1A4D1BDE98F6D438"]
+			id: "46DD5F9E7866D9CE"
+			tasks: [{
+				id: "44C523AFB500635E"
+				type: "item"
+				item: "mekanism:advanced_control_circuit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -0.5d
+			dependencies: ["46DD5F9E7866D9CE"]
+			id: "1B3E73193E1ABC36"
+			tasks: [{
+				id: "690A42EABC94DE0D"
+				type: "item"
+				item: "mekanism:elite_control_circuit"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.5d
+			dependencies: ["1B3E73193E1ABC36"]
+			id: "75A71077AD8AD64A"
+			tasks: [{
+				id: "58210732A23AF0AE"
+				type: "item"
+				item: "mekanism:ultimate_control_circuit"
+			}]
+			rewards: [{
+				id: "37F8C4A35E2D9E4F"
+				type: "item"
+				item: "mekanism:portable_qio_dashboard"
+			}]
+		}
+		{
+			x: -0.5d
+			y: -0.5d
+			dependencies: ["75A71077AD8AD64A"]
+			id: "7ECA22222C1DB391"
+			tasks: [{
+				id: "36233ACAA150E2B0"
+				type: "item"
+				item: "mekanism:teleportation_core"
+			}]
+		}
+		{
+			x: 2.5d
+			y: -0.5d
+			dependencies: ["0DD557048D3A40FD"]
+			id: "0EC5D869AD9D57AA"
+			tasks: [{
+				id: "049C8DE30A51C4AF"
+				type: "item"
+				item: "mekanism:yellow_cake_uranium"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -1.5d
+			dependencies: ["1CB04891F5CA6303"]
+			id: "391BB81A048EA43C"
+			tasks: [{
+				id: "18B3CDA849DD02AC"
+				type: "item"
+				item: "mekanism:pellet_plutonium"
+			}]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			dependencies: ["391BB81A048EA43C"]
+			id: "23CC43E55D7F6AD9"
+			tasks: [{
+				id: "61EEE6DC65EC3682"
+				type: "item"
+				item: "mekanism:pellet_polonium"
+			}]
+		}
+		{
+			x: 3.5d
+			y: -0.5d
+			dependencies: ["0EC5D869AD9D57AA"]
+			id: "3147FE3515F564E6"
+			tasks: [{
+				id: "0A27DF03355AAD19"
+				type: "item"
+				item: "mekanism:hdpe_rod"
+			}]
+		}
+		{
+			x: 10.5d
+			y: 0.5d
+			dependencies: ["23CC43E55D7F6AD9"]
+			id: "3EF1374926756436"
+			tasks: [{
+				id: "34641EFCB2A1F0E4"
+				type: "item"
+				item: {
+					id: "mekanismgenerators:hohlraum"
+					Count: 1b
+					tag: {
+						mekData: {
+							GasTanks: [{
+								Tank: 0b
+								stored: {
+									gasName: "mekanismgenerators:fusion_fuel"
+									amount: 10L
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 11.5d
+			y: -0.5d
+			dependencies: ["3EF1374926756436"]
+			id: "13C2B5E47BE6B24E"
+			tasks: [{
+				id: "12B25B7AE8ECE860"
+				type: "item"
+				item: "mekanism:pellet_antimatter"
+			}]
+		}
+		{
+			x: 0.5d
+			y: -0.5d
+			dependencies: ["7ECA22222C1DB391"]
+			id: "6179009C3CB7FAFA"
+			tasks: [
+				{
+					id: "34B8E2683E664F83"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+				{
+					id: "30BF0567C4D9C7FE"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "03C5B2D30438C042"
+					type: "item"
+					item: "immersivepetroleum:diesel_bucket"
+				}
+				{
+					id: "7538B596C6A30E3B"
+					type: "item"
+					item: "immersivepetroleum:lubricant_bucket"
+				}
+				{
+					id: "56C190648C908F55"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+				}
+				{
+					id: "6040535188448D7B"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			dependencies: ["6179009C3CB7FAFA"]
+			id: "4F20FF39AD784D6B"
+			tasks: [{
+				id: "0F74C1586D22923B"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.5d
+			dependencies: ["3A67A9C977A15356"]
+			id: "0DD557048D3A40FD"
+			tasks: [{
+				id: "6B5393E394F5747C"
+				type: "item"
+				item: {
+					id: "immersiveengineering:graphite_electrode"
+					Count: 1b
+					tag: {
+						graphDmg: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 1.5d
+			y: -0.5d
+			dependencies: ["4F20FF39AD784D6B"]
+			id: "3A67A9C977A15356"
+			tasks: [{
+				id: "6D51CF0185AC8B9D"
+				type: "item"
+				item: "immersiveengineering:turntable"
+			}]
+		}
+		{
+			x: 9.5d
+			y: -0.5d
+			dependencies: ["2BBE6308DBB8B1EC"]
+			id: "1CB04891F5CA6303"
+			tasks: [{
+				id: "221BE26659235F53"
+				type: "item"
+				item: "industrialforegoing:mycelial_reactor"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -0.5d
+			dependencies: ["1764F50BEB90395D"]
+			id: "2BBE6308DBB8B1EC"
+			tasks: [{
+				id: "0E73F613A68B85BE"
+				type: "item"
+				item: "industrialforegoing:wither_builder"
+			}]
+		}
+		{
+			x: 7.5d
+			y: -0.5d
+			dependencies: ["5DE124002CF80C4F"]
+			id: "1764F50BEB90395D"
+			tasks: [{
+				id: "261DD29FBA937897"
+				type: "item"
+				item: "industrialforegoing:supreme_black_hole_unit"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -0.5d
+			dependencies: ["4CBA33FF447E2F37"]
+			id: "316051EF5B3645CC"
+			tasks: [{
+				id: "374A62429A20DFD7"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			x: 4.5d
+			y: -0.5d
+			dependencies: ["3147FE3515F564E6"]
+			id: "4CBA33FF447E2F37"
+			tasks: [{
+				id: "1A7FC5817B5FD89B"
+				type: "item"
+				item: "industrialforegoing:pink_slime_ingot"
+			}]
+		}
+		{
+			x: 6.5d
+			y: -0.5d
+			dependencies: ["316051EF5B3645CC"]
+			id: "5DE124002CF80C4F"
+			tasks: [{
+				id: "795A73E3E74A3DD0"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+	]
+}

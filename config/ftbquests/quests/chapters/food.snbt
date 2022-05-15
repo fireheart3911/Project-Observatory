@@ -1,0 +1,1173 @@
+{
+	id: "63CC8DC9C6EBE68E"
+	group: ""
+	order_index: 3
+	filename: "food"
+	title: "Food"
+	icon: "farmersdelight:hamburger"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -8.0d
+			y: -0.5d
+			dependencies: ["240A8590A7D2436C"]
+			id: "3A5E1A2CAFA246E3"
+			tasks: [{
+				id: "1ED453BF3D962376"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -7.0d
+			y: -0.5d
+			dependencies: ["3A5E1A2CAFA246E3"]
+			id: "7BA8BACED00965D1"
+			tasks: [{
+				id: "7F48A0C5AF476F9D"
+				type: "item"
+				item: "aquaculture:tackle_box"
+				consume_items: false
+			}]
+		}
+		{
+			x: -6.0d
+			y: -0.5d
+			dependencies: ["7BA8BACED00965D1"]
+			id: "3875451D227917FB"
+			tasks: [{
+				id: "763FCECD5C8C344B"
+				type: "item"
+				item: "aquaculture:worm_farm"
+				consume_items: false
+			}]
+		}
+		{
+			x: -5.0d
+			y: -0.5d
+			dependencies: ["3875451D227917FB"]
+			id: "3F629E9E7AF0EC16"
+			tasks: [{
+				id: "2B6DECBCC4A298E0"
+				type: "item"
+				item: {
+					id: "aquaculture:worm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -0.5d
+			dependencies: ["3F629E9E7AF0EC16"]
+			id: "1004B04DC8D56587"
+			tasks: [
+				{
+					id: "5D28F1AACB54AF25"
+					type: "item"
+					item: "aquaculture:fishing_line"
+				}
+				{
+					id: "40BE1AAFCE6950C3"
+					type: "item"
+					item: "aquaculture:bobber"
+				}
+			]
+		}
+		{
+			x: -3.0d
+			y: -0.5d
+			dependencies: ["1004B04DC8D56587"]
+			dependency_requirement: "all_started"
+			id: "66B34E7566063B44"
+			tasks: [
+				{
+					id: "31A09A42A350898B"
+					type: "item"
+					item: "aquaculture:iron_hook"
+					consume_items: false
+				}
+				{
+					id: "479D73B4A671521F"
+					type: "item"
+					item: "aquaculture:gold_hook"
+					consume_items: false
+				}
+				{
+					id: "6B6936F515B8A3A9"
+					type: "item"
+					item: "aquaculture:diamond_hook"
+					consume_items: false
+				}
+				{
+					id: "4AA16C9AA52BEDE8"
+					type: "item"
+					item: "aquaculture:light_hook"
+					consume_items: false
+				}
+				{
+					id: "769D66C19674F561"
+					type: "item"
+					item: "aquaculture:heavy_hook"
+					consume_items: false
+				}
+				{
+					id: "7708C6AA9ECDF841"
+					type: "item"
+					item: "aquaculture:double_hook"
+					consume_items: false
+				}
+				{
+					id: "563C0E2BF8DE12FA"
+					type: "item"
+					item: "aquaculture:redstone_hook"
+					consume_items: false
+				}
+				{
+					id: "6756A384397AF6AF"
+					type: "item"
+					item: "aquaculture:nether_star_hook"
+					consume_items: false
+				}
+				{
+					id: "43B8B5202C4FE7FE"
+					type: "item"
+					item: "aquaculture:note_hook"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -1.5d
+			dependencies: ["3A5E1A2CAFA246E3"]
+			id: "2BF0223A86D11761"
+			tasks: [{
+				id: "3EF768523EC255F9"
+				type: "item"
+				item: {
+					id: "aquaculture:iron_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			dependencies: ["2BF0223A86D11761"]
+			id: "140C2BC32F3339E4"
+			tasks: [{
+				id: "4D337CC8EF199A2E"
+				type: "item"
+				item: {
+					id: "aquaculture:gold_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -5.0d
+			y: -1.5d
+			dependencies: ["140C2BC32F3339E4"]
+			id: "7B3FAF913E6BDB44"
+			tasks: [{
+				id: "6C1242C509B0DF25"
+				type: "item"
+				item: {
+					id: "aquaculture:diamond_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -3.0d
+			y: -1.5d
+			dependencies: ["7B3FAF913E6BDB44"]
+			id: "72196F0254A03B8F"
+			tasks: [{
+				id: "00E9306196CDCF76"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			hide_dependency_lines: true
+			dependencies: [
+				"3F629E9E7AF0EC16"
+				"1004B04DC8D56587"
+				"66B34E7566063B44"
+				"7B3FAF913E6BDB44"
+			]
+			dependency_requirement: "all_started"
+			id: "2F94DE48956810AF"
+			tasks: [{
+				id: "1C1A6954CF7FF2D5"
+				type: "item"
+				item: "aquaculture:neptunes_bounty"
+			}]
+		}
+		{
+			x: -7.0d
+			y: 0.5d
+			dependencies: ["3A5E1A2CAFA246E3"]
+			id: "7478DDF2CE5BB41E"
+			tasks: [
+				{
+					id: "6D90ABA856B06150"
+					type: "item"
+					item: {
+						id: "aquaculture:wooden_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "114BF06877C673E6"
+					type: "item"
+					item: {
+						id: "aquaculture:stone_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "008D09AA81C3E57D"
+					type: "item"
+					item: {
+						id: "aquaculture:iron_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+				{
+					id: "7F4DFBAD98F4352B"
+					type: "item"
+					item: {
+						id: "aquaculture:diamond_fillet_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 0.5d
+			dependencies: ["7478DDF2CE5BB41E"]
+			dependency_requirement: "all_started"
+			id: "56EAA6D35EE70C25"
+			tasks: [{
+				id: "4BC5074A51149172"
+				type: "item"
+				item: "aquaculture:neptunium_fillet_knife"
+			}]
+		}
+		{
+			x: -5.0d
+			y: 0.5d
+			dependencies: ["56EAA6D35EE70C25"]
+			id: "72161146904C9F13"
+			tasks: [{
+				id: "7EBE2BB73F7B2000"
+				type: "item"
+				item: "aquaculture:fish_fillet_raw"
+			}]
+		}
+		{
+			x: -4.0d
+			y: 0.5d
+			dependencies: ["72161146904C9F13"]
+			id: "4A278002425501C2"
+			tasks: [{
+				id: "5FD21E83DE7DE427"
+				type: "item"
+				item: "aquaculture:fish_fillet_cooked"
+			}]
+		}
+		{
+			x: -3.0d
+			y: 0.5d
+			dependencies: ["4A278002425501C2"]
+			id: "5B218A42C6B32566"
+			tasks: [{
+				id: "32AE6412A3D32CD3"
+				type: "item"
+				item: "minecraft:bamboo"
+				consume_items: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 2.0d
+			dependencies: ["5B218A42C6B32566"]
+			id: "106C30354499CB63"
+			tasks: [{
+				id: "1F3B10710293505C"
+				type: "item"
+				item: "sushigocrafting:roller"
+			}]
+		}
+		{
+			x: -2.5d
+			y: 2.0d
+			dependencies: ["106C30354499CB63"]
+			id: "2FAB8E07EA1C7D08"
+			tasks: [{
+				id: "3CC34ECA0C1C90E7"
+				type: "item"
+				item: "sushigocrafting:onigiri"
+				consume_items: false
+			}]
+		}
+		{
+			x: -1.5d
+			y: 1.0d
+			dependencies: ["106C30354499CB63"]
+			id: "74D749414695EA1A"
+			tasks: [
+				{
+					id: "722593E191D99CF5"
+					type: "item"
+					item: "sushigocrafting:tobiko_tuna_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "0414A42793B6C22E"
+					type: "item"
+					item: "sushigocrafting:tobiko_tuna_california"
+					consume_items: false
+				}
+				{
+					id: "3C7A5933D96FFAB7"
+					type: "item"
+					item: "sushigocrafting:tobiko_tuna_cheese_california"
+					consume_items: false
+				}
+				{
+					id: "53CC2831332FBDAE"
+					type: "item"
+					item: "sushigocrafting:tobiko_salmon_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "4BDABF452453375D"
+					type: "item"
+					item: "sushigocrafting:tobiko_salmon_california"
+					consume_items: false
+				}
+				{
+					id: "7EE838E0CBD45FDD"
+					type: "item"
+					item: "sushigocrafting:tobiko_salmon_cheese_california"
+					consume_items: false
+				}
+				{
+					id: "4A1B06193A8BF1E3"
+					type: "item"
+					item: "sushigocrafting:tobiko_crab_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "477BBC866BC9D20E"
+					type: "item"
+					item: "sushigocrafting:tobiko_crab_california"
+					consume_items: false
+				}
+				{
+					id: "6CD3C6B62ECB2589"
+					type: "item"
+					item: "sushigocrafting:tobiko_crab_cheese_california"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			dependencies: ["106C30354499CB63"]
+			id: "738872B52ED0B911"
+			tasks: [
+				{
+					id: "0422DB133D7D728C"
+					type: "item"
+					item: "sushigocrafting:salmon_maki"
+					consume_items: false
+				}
+				{
+					id: "6DB5EB4A5A2D8FD3"
+					type: "item"
+					item: "sushigocrafting:tuna_maki"
+					consume_items: false
+				}
+				{
+					id: "4841361724D78B06"
+					type: "item"
+					item: "sushigocrafting:avocado_maki"
+					consume_items: false
+				}
+				{
+					id: "43D104129D9F22BB"
+					type: "item"
+					item: "sushigocrafting:cucumber_maki"
+					consume_items: false
+				}
+				{
+					id: "74132B38B940E154"
+					type: "item"
+					item: "sushigocrafting:crab_maki"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			dependencies: ["106C30354499CB63"]
+			id: "751DD5E2C7DE6382"
+			tasks: [
+				{
+					id: "278AC06A98BD1796"
+					type: "item"
+					item: "sushigocrafting:salmon_temaki"
+					consume_items: false
+				}
+				{
+					id: "2449392CFCFBA22F"
+					type: "item"
+					item: "sushigocrafting:tuna_temaki"
+					consume_items: false
+				}
+				{
+					id: "7DE9AD6F07EF053C"
+					type: "item"
+					item: "sushigocrafting:shrimp_temaki"
+					consume_items: false
+				}
+				{
+					id: "26B4E3F893A37C5F"
+					type: "item"
+					item: "sushigocrafting:chicken_temaki"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 2.0d
+			dependencies: ["106C30354499CB63"]
+			id: "7CE9E822299F6908"
+			tasks: [
+				{
+					id: "06288BA7CE6BDE1E"
+					type: "item"
+					item: "sushigocrafting:salmon_nigiri"
+					consume_items: false
+				}
+				{
+					id: "21A6B2C7B34238FA"
+					type: "item"
+					item: "sushigocrafting:tuna_nigiri"
+					consume_items: false
+				}
+				{
+					id: "0608EF32E3E9CF71"
+					type: "item"
+					item: "sushigocrafting:shrimp_nigiri"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			dependencies: ["106C30354499CB63"]
+			id: "6A73443C01C3DCC0"
+			tasks: [
+				{
+					id: "555674EE0EB92B66"
+					type: "item"
+					item: "sushigocrafting:salmon_gunkan"
+					consume_items: false
+				}
+				{
+					id: "0C3040023A7B90F1"
+					type: "item"
+					item: "sushigocrafting:tuna_gunkan"
+					consume_items: false
+				}
+				{
+					id: "7F57CE6AD36A9ABD"
+					type: "item"
+					item: "sushigocrafting:wakame_gunkan"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 1.0d
+			dependencies: ["106C30354499CB63"]
+			id: "6A55395C808262F1"
+			tasks: [
+				{
+					id: "6B4C9C053DC14EBF"
+					type: "item"
+					item: "sushigocrafting:tuna_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "3AA7A38F2299A646"
+					type: "item"
+					item: "sushigocrafting:tuna_california"
+					consume_items: false
+				}
+				{
+					id: "5D3C78CD41DBBC12"
+					type: "item"
+					item: "sushigocrafting:tuna_cheese_california"
+					consume_items: false
+				}
+				{
+					id: "628087E45EC59FC6"
+					type: "item"
+					item: "sushigocrafting:salmon_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "1019011179136D6E"
+					type: "item"
+					item: "sushigocrafting:salmon_california"
+					consume_items: false
+				}
+				{
+					id: "2FE64A1A82329468"
+					type: "item"
+					item: "sushigocrafting:salmon_cheese_california"
+					consume_items: false
+				}
+				{
+					id: "1CE4924873625E5E"
+					type: "item"
+					item: "sushigocrafting:crab_cucumber_california"
+					consume_items: false
+				}
+				{
+					id: "6FC3D606EBF2FE87"
+					type: "item"
+					item: "sushigocrafting:crab_california"
+					consume_items: false
+				}
+				{
+					id: "016D8AF529225A4D"
+					type: "item"
+					item: "sushigocrafting:crab_cheese_california"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.0d
+			dependencies: ["240A8590A7D2436C"]
+			id: "569F99A67A0D0405"
+			tasks: [{
+				id: "6910D4D3CC0749D4"
+				type: "item"
+				item: {
+					id: "minecraft:wooden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -3.0d
+			dependencies: ["569F99A67A0D0405"]
+			id: "28E609FBE1318223"
+			tasks: [{
+				id: "707E4CCE049A9337"
+				type: "item"
+				item: {
+					id: "minecraft:stone_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -4.0d
+			dependencies: ["28E609FBE1318223"]
+			id: "02D559B8A447FEDE"
+			tasks: [{
+				id: "0F553CA5769603FD"
+				type: "item"
+				item: {
+					id: "minecraft:golden_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -5.0d
+			dependencies: ["02D559B8A447FEDE"]
+			id: "052B0599EF13AA6D"
+			tasks: [{
+				id: "55D69A655DE7B88E"
+				type: "item"
+				item: {
+					id: "minecraft:iron_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -6.0d
+			dependencies: ["052B0599EF13AA6D"]
+			id: "4AC51D02349EB603"
+			tasks: [{
+				id: "6CE46C24790C81F8"
+				type: "item"
+				item: {
+					id: "minecraft:diamond_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -7.0d
+			dependencies: ["4AC51D02349EB603"]
+			id: "6D20F3CD3F402851"
+			tasks: [{
+				id: "5948E7E1C6A7FA5B"
+				type: "item"
+				item: {
+					id: "minecraft:netherite_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -9.5d
+			y: -8.0d
+			dependencies: ["6D20F3CD3F402851"]
+			id: "33343944CC8D6A42"
+			tasks: [{
+				id: "5571D877868C1F5D"
+				type: "item"
+				item: {
+					id: "aquaculture:neptunium_hoe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+				consume_items: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -4.0d
+			dependencies: ["7F45EA13ADFF7983"]
+			id: "52FC5AD319219BA3"
+			tasks: [
+				{
+					id: "3506514DA8CD088B"
+					type: "item"
+					item: "minecraft:carrot"
+					consume_items: false
+				}
+				{
+					id: "44D3280BA8791127"
+					type: "item"
+					item: "minecraft:potato"
+					consume_items: false
+				}
+				{
+					id: "1C47FA95D0948A72"
+					type: "item"
+					item: "farmersdelight:onion"
+					consume_items: false
+				}
+				{
+					id: "702DB56707435AC4"
+					type: "item"
+					item: "minecraft:sugar_cane"
+					consume_items: false
+				}
+				{
+					id: "7DDC517654BB4E61"
+					type: "item"
+					item: "farmersdelight:rice"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.0d
+			dependencies: ["569F99A67A0D0405"]
+			id: "7F45EA13ADFF7983"
+			tasks: [
+				{
+					id: "4376C38F1716AFB6"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+					consume_items: false
+				}
+				{
+					id: "2EE6DDDB745184F3"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+					consume_items: false
+				}
+				{
+					id: "2FEE375D015AE9EE"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+					consume_items: false
+				}
+				{
+					id: "1CF4D3B35DF26B29"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+					consume_items: false
+				}
+				{
+					id: "025845B6F1C36626"
+					type: "item"
+					item: "sushigocrafting:sesame_seeds"
+					consume_items: false
+				}
+				{
+					id: "4BEDCE993DA58908"
+					type: "item"
+					item: "sushigocrafting:wasabi_seeds"
+					consume_items: false
+				}
+				{
+					id: "2FD1F1642CE421AD"
+					type: "item"
+					item: "sushigocrafting:soy_seeds"
+					consume_items: false
+				}
+				{
+					id: "6A3740759B47D47D"
+					type: "item"
+					item: "sushigocrafting:cucumber_seeds"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -5.0d
+			dependencies: ["52FC5AD319219BA3"]
+			id: "2590BB64AC40ED52"
+			tasks: [{
+				id: "1B63711847BA4FC7"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+				consume_items: false
+			}]
+		}
+		{
+			x: -10.5d
+			y: -6.0d
+			dependencies: ["2590BB64AC40ED52"]
+			id: "16D3DBDE0E2ECA51"
+			tasks: [
+				{
+					id: "71B930F3324B217E"
+					type: "item"
+					item: "farmersdelight:brown_mushroom_colony"
+					consume_items: false
+				}
+				{
+					id: "3A69C54493CBBFCC"
+					type: "item"
+					item: "farmersdelight:red_mushroom_colony"
+					consume_items: false
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.0d
+			dependencies: ["16D3DBDE0E2ECA51"]
+			id: "43931C988633752A"
+			tasks: [{
+				id: "432BE754B1028CF7"
+				type: "item"
+				item: "nethers_delight:rich_soul_soil"
+			}]
+		}
+		{
+			x: -10.5d
+			y: -8.0d
+			dependencies: ["43931C988633752A"]
+			id: "246D43E2F3DF820F"
+			tasks: [
+				{
+					id: "42EF6D2732E2BD59"
+					type: "item"
+					item: "nethers_delight:crimson_fungus_colony_item"
+				}
+				{
+					id: "396BC2ED4F11556F"
+					type: "item"
+					item: "nethers_delight:warped_fungus_colony_item"
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -0.5d
+			dependencies: ["5540CECE319FA5C5"]
+			hide: false
+			id: "78184F77C38F60A7"
+			tasks: [{
+				id: "4141BE402D9D1858"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -0.5d
+			dependencies: ["78184F77C38F60A7"]
+			id: "10B89FCF38625E87"
+			tasks: [
+				{
+					id: "5696B77670F28864"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "41A09565C29F1F07"
+					type: "item"
+					item: "sushigocrafting:cutting_board"
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -9.0d
+			dependencies: [
+				"246D43E2F3DF820F"
+				"33343944CC8D6A42"
+				"7EF6C28F8C2FD90E"
+			]
+			id: "481B6566B6389D43"
+			tasks: [
+				{
+					id: "340617D3093B9E19"
+					type: "item"
+					item: "farmersdelight:carrot_crate"
+				}
+				{
+					id: "50B4717248DE1A16"
+					type: "item"
+					item: "farmersdelight:potato_crate"
+				}
+				{
+					id: "1B7DD62A29354F74"
+					type: "item"
+					item: "farmersdelight:beetroot_crate"
+				}
+				{
+					id: "1B9AE2CF03BD5372"
+					type: "item"
+					item: "farmersdelight:tomato_crate"
+				}
+				{
+					id: "1E16D965228C98B6"
+					type: "item"
+					item: "farmersdelight:cabbage_crate"
+				}
+				{
+					id: "24DB941D66D68891"
+					type: "item"
+					item: "farmersdelight:onion_crate"
+				}
+				{
+					id: "483E6681AB13944C"
+					type: "item"
+					item: "farmersdelight:rice_bag"
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			dependencies: ["569F99A67A0D0405"]
+			id: "43C410DD6F16B4FA"
+			tasks: [{
+				id: "273A5601F23DE5E1"
+				type: "item"
+				item: "farmersdelight:wheat_dough"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -4.0d
+			dependencies: ["43C410DD6F16B4FA"]
+			id: "5FA93E3F1B7EB762"
+			tasks: [{
+				id: "311093177ADA2306"
+				type: "item"
+				item: "farmersdelight:raw_pasta"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -5.0d
+			dependencies: ["5FA93E3F1B7EB762"]
+			id: "7572EC85F6F8DDD8"
+			tasks: [{
+				id: "333AE2C05CFA0732"
+				type: "item"
+				item: "farmersdelight:tomato_sauce"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -6.0d
+			dependencies: ["7572EC85F6F8DDD8"]
+			id: "7F5E5DE4F5E47750"
+			tasks: [{
+				id: "7D477E5E290433EE"
+				type: "item"
+				item: "farmersdelight:pasta_with_meatballs"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -7.0d
+			dependencies: ["7F5E5DE4F5E47750"]
+			id: "07E07C6CD81B9035"
+			tasks: [{
+				id: "0CC18B86B657634B"
+				type: "item"
+				item: "farmersdelight:pasta_with_mutton_chop"
+			}]
+		}
+		{
+			x: -8.5d
+			y: -8.0d
+			dependencies: ["07E07C6CD81B9035"]
+			id: "7EF6C28F8C2FD90E"
+			tasks: [{
+				id: "38AD91401643915E"
+				type: "item"
+				item: "farmersdelight:squid_ink_pasta"
+			}]
+		}
+		{
+			x: -9.5d
+			y: -0.5d
+			dependencies: ["76EC91F473748DF3"]
+			id: "240A8590A7D2436C"
+			tasks: [{
+				id: "4CC9544E51C03F6B"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			dependencies: [
+				"72196F0254A03B8F"
+				"66B34E7566063B44"
+				"5B218A42C6B32566"
+			]
+			id: "756A7310D9AE2645"
+			tasks: [{
+				id: "79151D7ACEB8FACD"
+				type: "item"
+				item: "aquaculture:message_in_a_bottle"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.5d
+			dependencies: ["756A7310D9AE2645"]
+			id: "42F16C43C3023A06"
+			tasks: [{
+				id: "6337D929AAD5CB02"
+				type: "item"
+				item: "aquaculture:sushi"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -0.5d
+			dependencies: ["10B89FCF38625E87"]
+			dependency_requirement: "one_started"
+			id: "76EC91F473748DF3"
+			tasks: [{
+				id: "3E676FA2B254E24F"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 1.0d
+			dependencies: ["240A8590A7D2436C"]
+			id: "1918DEC7ADE66583"
+			tasks: [{
+				id: "478A8ACFC4192B56"
+				type: "item"
+				item: {
+					id: "farmersdelight:flint_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["1918DEC7ADE66583"]
+			id: "34D976943FE6BD14"
+			tasks: [{
+				id: "3688E19081486584"
+				type: "item"
+				item: {
+					id: "farmersdelight:iron_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 3.0d
+			dependencies: ["34D976943FE6BD14"]
+			id: "2D802D9FD115DE23"
+			tasks: [{
+				id: "020DD25CBC20ABAC"
+				type: "item"
+				item: {
+					id: "farmersdelight:golden_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 4.0d
+			dependencies: ["2D802D9FD115DE23"]
+			id: "7D4549D47D3CB7A0"
+			tasks: [{
+				id: "0F32B91B64B60C4E"
+				type: "item"
+				item: {
+					id: "farmersdelight:diamond_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["7D4549D47D3CB7A0"]
+			id: "23D32C829C928CF1"
+			tasks: [{
+				id: "46CBF1DA6E83309E"
+				type: "item"
+				item: {
+					id: "farmersdelight:netherite_knife"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+}

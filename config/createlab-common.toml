@@ -1,0 +1,14 @@
+#Blocks that can be used as a lab portal frame
+lab_portal_frame_blocks = ["minecraft:smooth_quartz", "minecraft:quartz_block"]
+#Blocks and items that are disabled in the laboratory dimension
+disabled_items = ["minecraft:ender_chest"]
+
+["Command Permission Levels"]
+	#0 = All, 1 = OPs, 3 = Disabled
+	#Range: 0 ~ 2
+	tp_permission_level = 1
+	#Range: 0 ~ 2
+	debug_permission_level = 1
+	#Range: 0 ~ 2
+	save_permission_level = 1
+

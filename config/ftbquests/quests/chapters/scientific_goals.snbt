@@ -1,0 +1,1369 @@
+{
+	id: "529B0BBACC2C5BE0"
+	group: ""
+	order_index: 2
+	filename: "scientific_goals"
+	title: "Scientific Goals"
+	icon: {
+		id: "ftbquests:custom_icon"
+		Count: 1b
+		tag: {
+			Icon: "ftbquests:textures/gui/search.png"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A heated situation"
+			x: 4.0d
+			y: 7.0d
+			description: ["Use a tempered glass jar to create some lava...."]
+			dependencies: ["5388D0A3C7355C25"]
+			id: "65A6810ABDD0D9F7"
+			tasks: [
+				{
+					id: "0FABEEC991073EEB"
+					type: "item"
+					item: "ftbjarmod:tempered_jar"
+					consume_items: false
+				}
+				{
+					id: "6EA148B61C57B98B"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			dependencies: ["0FF21AC2CB3CF3F2"]
+			hide: true
+			id: "1A1F91F08C32B9C3"
+			tasks: [{
+				id: "294E5DD659E71A01"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+		}
+		{
+			x: 5.5d
+			y: 7.0d
+			dependencies: ["65A6810ABDD0D9F7"]
+			id: "0FF21AC2CB3CF3F2"
+			tasks: [{
+				id: "639998C0B145C6D7"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 7.0d
+			dependencies: ["1A1F91F08C32B9C3"]
+			hide: true
+			id: "48CDBE0B7E19E581"
+			tasks: [{
+				id: "78FF1E2DF96CBC6B"
+				type: "item"
+				item: "compactmachines:machine_small"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 7.0d
+			dependencies: ["48CDBE0B7E19E581"]
+			hide: true
+			id: "58DB19346CD9823A"
+			tasks: [{
+				id: "3955CB7A8F92EC24"
+				type: "item"
+				item: "compactmachines:machine_normal"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 7.0d
+			dependencies: ["58DB19346CD9823A"]
+			hide: true
+			id: "2973AF9DE51F95B2"
+			tasks: [{
+				id: "13D7C8FF564F9641"
+				type: "item"
+				item: "compactmachines:machine_large"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 7.0d
+			dependencies: ["2973AF9DE51F95B2"]
+			hide: true
+			id: "643392613CA405E0"
+			tasks: [{
+				id: "2156E7E76909E884"
+				type: "item"
+				item: "compactmachines:machine_giant"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 7.0d
+			dependencies: ["643392613CA405E0"]
+			hide: true
+			id: "2D5DB57E58BAFD9B"
+			tasks: [{
+				id: "59A47E2F542BA464"
+				type: "item"
+				item: "compactmachines:machine_maximum"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 8.5d
+			dependencies: ["0FF21AC2CB3CF3F2"]
+			hide: true
+			id: "79D5C635AC4BB667"
+			tasks: [{
+				id: "7ACB1B586EF33B4E"
+				type: "item"
+				item: "ftbsluice:oak_sluice"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 8.5d
+			dependencies: ["79D5C635AC4BB667"]
+			hide: true
+			id: "7EA7B1A9B38ABFA7"
+			tasks: [{
+				id: "57A8E14C32A2E3A3"
+				type: "item"
+				item: "ftbsluice:iron_sluice"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 8.5d
+			dependencies: ["7EA7B1A9B38ABFA7"]
+			hide: true
+			id: "0E77A588352F58F6"
+			tasks: [{
+				id: "36B04F8B6FC8C7AF"
+				type: "item"
+				item: "ftbsluice:diamond_sluice"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 8.5d
+			dependencies: ["0E77A588352F58F6"]
+			hide: true
+			id: "4436647EB7A9A550"
+			tasks: [{
+				id: "3DF15AFE49548B54"
+				type: "item"
+				item: "ftbsluice:netherite_sluice"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 8.5d
+			dependencies: ["4436647EB7A9A550"]
+			hide: true
+			id: "2E3AB13D015C78F9"
+			tasks: [{
+				id: "379F11A432F3E97F"
+				type: "item"
+				item: "ftbsluice:empowered_sluice"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 5.5d
+			dependencies: ["0FF21AC2CB3CF3F2"]
+			hide: true
+			id: "22793171484F14FA"
+			tasks: [{
+				id: "0F033336AE53D40F"
+				type: "item"
+				item: "ftbsluice:cloth_mesh"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 5.5d
+			dependencies: ["22793171484F14FA"]
+			id: "4FB2D9F876DB342D"
+			tasks: [{
+				id: "24658C1DDEDA8FB5"
+				type: "item"
+				item: "ftbsluice:iron_mesh"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 5.5d
+			dependencies: ["4FB2D9F876DB342D"]
+			id: "394B2D4BAEE2A434"
+			tasks: [{
+				id: "41696D7756E2B906"
+				type: "item"
+				item: "ftbsluice:gold_mesh"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 5.5d
+			dependencies: ["394B2D4BAEE2A434"]
+			id: "4A742837E4F009AC"
+			tasks: [{
+				id: "1C5E5F8F40BDDF32"
+				type: "item"
+				item: "ftbsluice:diamond_mesh"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 5.5d
+			dependencies: ["4A742837E4F009AC"]
+			id: "199C93C6F9EDF5C5"
+			tasks: [{
+				id: "3E5D1D97851F67B1"
+				type: "item"
+				item: "ftbsluice:blazing_mesh"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			dependencies: ["5388D0A3C7355C25"]
+			id: "4EE87BE68E47CCA8"
+			tasks: [{
+				id: "13B4761638B4C955"
+				type: "stat"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "cyclic:textures/items/heart_empty.png"
+					}
+				}
+				stat: "minecraft:damage_taken"
+				value: 100
+			}]
+		}
+		{
+			x: 5.5d
+			y: 3.0d
+			dependencies: ["4EE87BE68E47CCA8"]
+			id: "5E1A5739BF33C620"
+			tasks: [{
+				id: "391695000AD15E78"
+				type: "item"
+				item: {
+					id: "minecraft:potion"
+					Count: 1b
+					tag: {
+						Potion: "minecraft:strong_healing"
+					}
+				}
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.0d
+			dependencies: ["5E1A5739BF33C620"]
+			id: "1222B1853EF1CF2A"
+			tasks: [{
+				id: "12785F6B2151B067"
+				type: "item"
+				item: "cyclic:apple_honey"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 3.0d
+			dependencies: ["1222B1853EF1CF2A"]
+			id: "01086E8BE4FEA85E"
+			tasks: [{
+				id: "27D057C0341E1E0A"
+				type: "item"
+				item: "cyclic:apple_chocolate"
+			}]
+		}
+		{
+			x: 10.0d
+			y: 3.0d
+			dependencies: ["01086E8BE4FEA85E"]
+			id: "51C444D9398AFADB"
+			tasks: [{
+				id: "1D687396B3BC3260"
+				type: "item"
+				item: "cyclic:apple_diamond"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 3.0d
+			dependencies: ["51C444D9398AFADB"]
+			id: "1EC1613049F63398"
+			tasks: [{
+				id: "74A35A3AFA774435"
+				type: "item"
+				item: "minecraft:enchanted_golden_apple"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 3.0d
+			dependencies: ["1EC1613049F63398"]
+			id: "6DB14ADF734B9D12"
+			tasks: [{
+				id: "1FB777B52651C8D5"
+				type: "item"
+				item: "cyclic:heart"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 3.0d
+			dependencies: ["161E451F21CDE401"]
+			id: "70981D769459F1F8"
+			tasks: [{
+				id: "6964593A81973C26"
+				type: "item"
+				item: "minecraft:totem_of_undying"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 3.0d
+			dependencies: ["6DB14ADF734B9D12"]
+			id: "161E451F21CDE401"
+			tasks: [{
+				id: "4840538341AB7DB2"
+				type: "item"
+				item: "atmadditions:philosophers_fuel"
+			}]
+		}
+		{
+			x: 17.5d
+			y: 3.0d
+			dependencies: ["70981D769459F1F8"]
+			id: "0DE3DCCD91345BE1"
+			tasks: [{
+				id: "5CD1F14C576F744C"
+				type: "item"
+				item: {
+					id: "cyclic:soulstone"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: -1.0d
+			dependencies: ["5388D0A3C7355C25"]
+			id: "5DA01111B07502AB"
+			tasks: [{
+				id: "68690FB73E2DA79E"
+				type: "item"
+				item: "minecraft:crafting_table"
+			}]
+		}
+		{
+			x: 5.5d
+			y: -1.0d
+			dependencies: ["5DA01111B07502AB"]
+			id: "0A2F898F4AFF5492"
+			tasks: [{
+				id: "32D4E5B7AC613759"
+				type: "item"
+				item: "extendedcrafting:black_iron_ingot"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -1.0d
+			dependencies: ["0A2F898F4AFF5492"]
+			id: "224D152E2399A0E1"
+			tasks: [{
+				id: "0C4ECCC5C894CD83"
+				type: "item"
+				item: "extendedcrafting:basic_table"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -1.0d
+			dependencies: ["224D152E2399A0E1"]
+			id: "0FA4F64307DC728B"
+			tasks: [{
+				id: "2E621CA532E7AF6C"
+				type: "item"
+				item: "extendedcrafting:advanced_table"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -1.0d
+			dependencies: ["0FA4F64307DC728B"]
+			id: "01A2F081E14ECA6C"
+			tasks: [{
+				id: "47FB233F8E0F29A1"
+				type: "item"
+				item: "extendedcrafting:elite_table"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -1.0d
+			dependencies: ["01A2F081E14ECA6C"]
+			id: "741B8A2B14465275"
+			tasks: [{
+				id: "040297BA9C20E502"
+				type: "item"
+				item: "extendedcrafting:ultimate_table"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -1.0d
+			dependencies: ["741B8A2B14465275"]
+			id: "351FB3909DD02C61"
+			tasks: [{
+				id: "07F888EF6C2E82B7"
+				type: "item"
+				item: "extendedcrafting:basic_auto_table"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -1.0d
+			dependencies: ["351FB3909DD02C61"]
+			id: "1EE5FDDFCEFCC62C"
+			tasks: [{
+				id: "50A50C7AE29D1A26"
+				type: "item"
+				item: "extendedcrafting:advanced_auto_table"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			dependencies: ["1EE5FDDFCEFCC62C"]
+			id: "3DC8C0EA3E3A9DCE"
+			tasks: [{
+				id: "081142ABAC576E48"
+				type: "item"
+				item: "extendedcrafting:elite_auto_table"
+			}]
+		}
+		{
+			x: 17.5d
+			y: -1.0d
+			dependencies: ["3DC8C0EA3E3A9DCE"]
+			id: "73C1A72B2D4ADB13"
+			tasks: [{
+				id: "3BDC4D7071C97F70"
+				type: "item"
+				item: "extendedcrafting:ultimate_auto_table"
+			}]
+		}
+		{
+			x: 7.0d
+			y: 0.5d
+			dependencies: ["0A2F898F4AFF5492"]
+			id: "12D492FF2C4AB3D3"
+			tasks: [{
+				id: "73F5D4E0883C8E53"
+				type: "item"
+				item: "cyclic:crafting_stick"
+			}]
+		}
+		{
+			x: 8.5d
+			y: 0.5d
+			dependencies: ["12D492FF2C4AB3D3"]
+			id: "5A0BDE0A66E445DE"
+			tasks: [{
+				id: "599C684097931F4C"
+				type: "item"
+				item: {
+					id: "cyclic:crafting_bag"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 9
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 10.0d
+			y: 0.5d
+			dependencies: ["5A0BDE0A66E445DE"]
+			id: "46D63CB5F9D48976"
+			tasks: [{
+				id: "197CC4C813E17F76"
+				type: "item"
+				item: "draconicevolution:crafting_core"
+			}]
+		}
+		{
+			x: 11.5d
+			y: 0.5d
+			dependencies: ["46D63CB5F9D48976"]
+			id: "158C99A3BC7408FE"
+			tasks: [{
+				id: "61BF3A3E82A28D4D"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+		}
+		{
+			x: 13.0d
+			y: 0.5d
+			dependencies: ["158C99A3BC7408FE"]
+			id: "1C386C7B87135954"
+			tasks: [{
+				id: "1F842F45D683239B"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["1C386C7B87135954"]
+			id: "6202A9CD2FF9F021"
+			tasks: [{
+				id: "24069EAD91317FED"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.5d
+			dependencies: ["6202A9CD2FF9F021"]
+			id: "641471DBA29A2E98"
+			tasks: [{
+				id: "2067248DF8383C09"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["0A2F898F4AFF5492"]
+			id: "18925F794DF40451"
+			tasks: [{
+				id: "46B85059AB1E4C99"
+				type: "item"
+				item: "extendedcrafting:crafting_core"
+			}]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			dependencies: ["5F1B6B7DA289BC4C"]
+			id: "2CE67DC3427C843E"
+			tasks: [{
+				id: "6D4BBA63E4CC871F"
+				type: "item"
+				item: "extendedcrafting:ender_crafter"
+			}]
+		}
+		{
+			x: 8.5d
+			y: -2.5d
+			dependencies: ["18925F794DF40451"]
+			id: "5F1B6B7DA289BC4C"
+			tasks: [{
+				id: "3EE0CA4B6BF99CA4"
+				type: "item"
+				item: "extendedcrafting:compressor"
+			}]
+		}
+		{
+			x: 11.5d
+			y: -2.5d
+			dependencies: ["2CE67DC3427C843E"]
+			id: "230E501EF1BE1032"
+			tasks: [{
+				id: "07F56E45DD98075F"
+				type: "item"
+				item: "minecraft:smithing_table"
+			}]
+		}
+		{
+			x: 13.0d
+			y: -2.5d
+			dependencies: ["230E501EF1BE1032"]
+			id: "7C3F9D88870F9E5B"
+			tasks: [{
+				id: "7CFA7DA55C98ACB1"
+				type: "item"
+				item: "betterendforge:infusion_pedestal"
+			}]
+		}
+		{
+			x: 14.5d
+			y: -2.5d
+			dependencies: ["7C3F9D88870F9E5B"]
+			id: "4AD05CF17BFD2CE7"
+			tasks: [{
+				id: "3EB263FBE56E37A3"
+				type: "item"
+				item: "cgm:workbench"
+			}]
+		}
+		{
+			x: 16.0d
+			y: -2.5d
+			dependencies: ["4AD05CF17BFD2CE7"]
+			id: "026597D26AC7DA88"
+			tasks: [{
+				id: "64ECE5732AD398D7"
+				type: "item"
+				item: "mekanism:antiprotonic_nucleosynthesizer"
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			dependencies: ["5540CECE319FA5C5"]
+			size: 1.25d
+			id: "5388D0A3C7355C25"
+			tasks: [{
+				id: "1DCBCF976811D61B"
+				type: "item"
+				item: "akashictome:tome"
+			}]
+			rewards: [
+				{
+					id: "410FA8F8CFB0E2CB"
+					type: "item"
+					item: "ftbquests:book"
+				}
+				{
+					id: "7AB969E0EBBAD496"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+				{
+					id: "5AF8D7E75947719A"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "sushigocrafting:sushigocrafting"
+						}
+					}
+				}
+				{
+					id: "2EDACA74E688C541"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "industrialforegoing:industrial_foregoing"
+						}
+					}
+				}
+				{
+					id: "6927E8291B068375"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "084B340921DDF40E"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				}
+				{
+					id: "4D404166FB5B3744"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "extendedcrafting:guide"
+						}
+					}
+				}
+				{
+					id: "71556D868D1063BF"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "cyclic:cyclic_guide_book"
+						}
+					}
+				}
+				{
+					id: "0EF2ACD16C479446"
+					type: "item"
+					item: "resourcefulbees:beepedia"
+				}
+				{
+					id: "4FF0406339D8B0F4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "resourcefulbees:fifty_shades_of_bees"
+						}
+					}
+				}
+				{
+					id: "60E335D73CB38D1B"
+					type: "item"
+					item: "draconicevolution:info_tablet"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 7.0d
+			description: ["Coming soon"]
+			dependencies: ["5388D0A3C7355C25"]
+			id: "014EEDCBC19F03CA"
+			tasks: [{
+				id: "4380D3560470691D"
+				type: "item"
+				item: {
+					id: "immersiveengineering:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -2.5d
+			dependencies: ["4BE4F5B6B391D757"]
+			id: "38F166C54BBD3771"
+			tasks: [{
+				id: "77CCA724AC018E69"
+				type: "item"
+				item: "industrialforegoing:pink_slime"
+			}]
+			rewards: [{
+				id: "272DC1135E8F281C"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 2
+			}]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			description: ["Plastic is used in some way in almost every recipe in industrial forgoing. Its important to automate it."]
+			dependencies: ["0AF2DF90D0BF7F14"]
+			id: "29FAAD2B0ACC3FFB"
+			tasks: [{
+				id: "73F85408328BABC4"
+				type: "item"
+				item: "industrialforegoing:plastic"
+			}]
+			rewards: [{
+				id: "2525A6EBABFAD1DE"
+				type: "item"
+				item: "industrialforegoing:tinydryrubber"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.0d
+			dependencies: ["5388D0A3C7355C25"]
+			id: "5DFCA8FC8F34AB3A"
+			tasks: [{
+				id: "2F3AC4588A62122C"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			rewards: [{
+				id: "26FAA287B1C62ED7"
+				type: "item"
+				item: "industrialforegoing:pitiful_generator"
+			}]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["39CBCE1CD9397B40"]
+			id: "33A83627C80CC602"
+			tasks: [{
+				id: "77D73F381D9329C8"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			rewards: [{
+				id: "16C93E14E225FE52"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 4
+			}]
+		}
+		{
+			x: -15.5d
+			y: -1.0d
+			description: ["Using pink slime and a dissolution chamber you can make the advanced machine frame."]
+			dependencies: ["4BE4F5B6B391D757"]
+			id: "11A78A8BBF65F111"
+			tasks: [{
+				id: "1FFD774EFB7F4D6F"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			rewards: [{
+				id: "2F4C5A8A11DBCFEB"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 4
+			}]
+		}
+		{
+			x: -20.0d
+			y: -1.0d
+			dependencies: ["1F34A005767EC202"]
+			id: "1D9120916271F185"
+			tasks: [{
+				id: "789063E86CA5F6C6"
+				type: "item"
+				item: "industrialforegoing:machine_frame_supreme"
+			}]
+		}
+		{
+			x: -3.5d
+			y: -1.0d
+			description: ["Produces latex which can be turned into Plastic."]
+			dependencies: ["5DFCA8FC8F34AB3A"]
+			id: "6BEEF21CDD537E32"
+			tasks: [{
+				id: "0DB8993B686AD509"
+				type: "item"
+				item: "industrialforegoing:fluid_extractor"
+			}]
+			rewards: [
+				{
+					id: "5DAF080D353A47DE"
+					type: "item"
+					item: "mekanism:basic_mechanical_pipe"
+					count: 8
+				}
+				{
+					id: "6BDE7502D7702D12"
+					type: "item"
+					item: "mekanism:basic_fluid_tank"
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: -1.0d
+			dependencies: ["6BEEF21CDD537E32"]
+			id: "7759F5B4B7F18F4B"
+			tasks: [{
+				id: "2A92BA8ECD4EF0A9"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+			rewards: [{
+				id: "54C6A89C07431A7D"
+				type: "item"
+				item: "industrialforegoing:latex_bucket"
+			}]
+		}
+		{
+			x: -6.5d
+			y: -1.0d
+			description: ["turns Latex to dry Rubber which can be smelted to Plastic."]
+			dependencies: ["7759F5B4B7F18F4B"]
+			id: "0AF2DF90D0BF7F14"
+			tasks: [{
+				id: "71B6FACDD299BA3D"
+				type: "item"
+				item: "industrialforegoing:latex_processing_unit"
+			}]
+			rewards: [{
+				id: "6EF311F189DDE1EF"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 2
+			}]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			dependencies: ["29FAAD2B0ACC3FFB"]
+			id: "39CBCE1CD9397B40"
+			tasks: [{
+				id: "6C240E05C1E517C7"
+				type: "item"
+				item: "industrialforegoing:dissolution_chamber"
+			}]
+		}
+		{
+			x: -12.5d
+			y: -1.0d
+			description: ["This machine turns entities into pink slime and liquid meat."]
+			dependencies: ["33A83627C80CC602"]
+			id: "462DE38CA9297F63"
+			tasks: [{
+				id: "4A16CC25726CE8C9"
+				type: "item"
+				item: "industrialforegoing:mob_slaughter_factory"
+			}]
+			rewards: [{
+				id: "2DFFC77E7970809D"
+				type: "item"
+				item: {
+					id: "mekanism:basic_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							owner: [I;
+								-1292452261
+								1840400603
+								-1448734433
+								868541398
+							]
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "industrialforegoing:meat"
+									Amount: 6000
+								}
+							}]
+							securityMode: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -14.0d
+			y: -1.0d
+			dependencies: ["462DE38CA9297F63"]
+			id: "4BE4F5B6B391D757"
+			tasks: [{
+				id: "3BF0770425D96FCF"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+			rewards: [{
+				id: "314371C26AAC8C59"
+				type: "item"
+				item: "industrialforegoing:pink_slime_bucket"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -1.0d
+			hide_dependency_lines: true
+			dependencies: ["39CBCE1CD9397B40"]
+			id: "797A1AF2985D3F17"
+			tasks: [{
+				id: "2B09E0E731E4D7D9"
+				type: "item"
+				item: "industrialforegoing:laser_lens10"
+			}]
+		}
+		{
+			x: -17.0d
+			y: -2.0d
+			dependencies: ["11A78A8BBF65F111"]
+			id: "08C6AC87A7F3DD09"
+			tasks: [{
+				id: "1392F39BBCF18309"
+				type: "item"
+				item: "industrialforegoing:fluid_laser_base"
+			}]
+		}
+		{
+			x: -17.0d
+			y: 0.0d
+			dependencies: ["11A78A8BBF65F111"]
+			id: "38B779FC21D1A793"
+			tasks: [{
+				id: "00B813496F0085BA"
+				type: "item"
+				item: "industrialforegoing:laser_drill"
+			}]
+		}
+		{
+			x: -18.5d
+			y: -1.0d
+			dependencies: [
+				"08C6AC87A7F3DD09"
+				"797A1AF2985D3F17"
+				"38B779FC21D1A793"
+			]
+			id: "1F34A005767EC202"
+			tasks: [{
+				id: "26EB9B47536CF4C1"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+			rewards: [{
+				id: "4C7FCAF1663874A7"
+				type: "item"
+				item: "industrialforegoing:ether_gas_bucket"
+			}]
+		}
+		{
+			x: -8.0d
+			y: -2.5d
+			description: ["Usefull for placing blocks e.g. infront of a Fluid Extractor."]
+			dependencies: ["29FAAD2B0ACC3FFB"]
+			id: "2BF75FCBC49F635E"
+			tasks: [{
+				id: "03C29257F3A76A8E"
+				type: "item"
+				item: "industrialforegoing:block_placer"
+			}]
+			rewards: [{
+				id: "174E1D25A7E06EC2"
+				type: "item"
+				item: {
+					id: "mekanism:basic_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "4000000"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Enchantment"
+			icon: "minecraft:enchanting_table"
+			x: -17.0d
+			y: -3.5d
+			dependencies: ["11A78A8BBF65F111"]
+			id: "72D6F44EF7D2B113"
+			tasks: [{
+				id: "08022DA3865A6813"
+				type: "xp"
+				value: 100L
+				points: false
+			}]
+			rewards: [
+				{
+					id: "5645C36F5269ACF0"
+					type: "item"
+					auto: "no_toast"
+					item: "minecraft:bread"
+				}
+				{
+					id: "71DAE399A347F20C"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+		}
+		{
+			x: -18.0d
+			y: -5.5d
+			dependencies: ["72D6F44EF7D2B113"]
+			id: "56D92BCF40FD7380"
+			tasks: [{
+				id: "54DC078AE3F5B1D0"
+				type: "item"
+				item: "industrialforegoing:enchantment_factory"
+			}]
+			rewards: [{
+				id: "1B3E98118F96BEB6"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "industrialforegoing:essence"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: -4.5d
+			dependencies: ["72D6F44EF7D2B113"]
+			id: "11A286CF52C35937"
+			tasks: [{
+				id: "5E6EE833812026D6"
+				type: "item"
+				item: "industrialforegoing:enchantment_sorter"
+			}]
+			rewards: [{
+				id: "58EF3D77A575B860"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "industrialforegoing:essence"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -17.0d
+			y: -5.5d
+			dependencies: ["72D6F44EF7D2B113"]
+			id: "3B478F3D4C011859"
+			tasks: [{
+				id: "354534B239EE4C83"
+				type: "item"
+				item: "industrialforegoing:enchantment_applicator"
+			}]
+			rewards: [{
+				id: "68D2C7CAEB3266C2"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "industrialforegoing:essence"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -19.0d
+			y: -3.5d
+			dependencies: ["72D6F44EF7D2B113"]
+			id: "611A83506E4DBB38"
+			tasks: [{
+				id: "73069E5EFF748A80"
+				type: "item"
+				item: "industrialforegoing:enchantment_extractor"
+			}]
+			rewards: [{
+				id: "6D44F606450C2AAE"
+				type: "item"
+				item: {
+					id: "ftblibrary:fluid_container"
+					Count: 1b
+					tag: {
+						Fluid: {
+							FluidName: "industrialforegoing:essence"
+							Amount: 1000
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			dependencies: ["39CBCE1CD9397B40"]
+			id: "6FAD38BB13D77A44"
+			tasks: [
+				{
+					id: "6626428C40E79604"
+					type: "item"
+					item: {
+						id: "industrialforegoing:speed_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Speed: 3.0f
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "004BC289920E1930"
+					type: "item"
+					item: {
+						id: "industrialforegoing:processing_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Processing: 3.0f
+							}
+						}
+					}
+					count: 8L
+				}
+				{
+					id: "5761592116C84FA0"
+					type: "item"
+					item: {
+						id: "industrialforegoing:efficiency_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "141A2B343CA36526"
+				type: "item"
+				item: "industrialforegoing:plastic"
+				count: 4
+			}]
+		}
+		{
+			title: "Other Lenses"
+			x: -15.5d
+			y: -5.5d
+			description: ["Using lenses you can modify the ores you recive"]
+			dependencies: ["50904CBAF92B6B9E"]
+			id: "08B420248591E813"
+			tasks: [
+				{
+					id: "6BB06BEB839914FF"
+					type: "item"
+					item: "industrialforegoing:laser_lens0"
+				}
+				{
+					id: "7117B3BACA9026DA"
+					type: "item"
+					item: "industrialforegoing:laser_lens1"
+				}
+				{
+					id: "16C8DBA1D373E244"
+					type: "item"
+					item: "industrialforegoing:laser_lens2"
+				}
+				{
+					id: "07B812E108F45251"
+					type: "item"
+					item: "industrialforegoing:laser_lens3"
+				}
+				{
+					id: "6DE7A17CE7010756"
+					type: "item"
+					item: "industrialforegoing:laser_lens4"
+				}
+				{
+					id: "0C02C21B96DB0C9A"
+					type: "item"
+					item: "industrialforegoing:laser_lens5"
+				}
+				{
+					id: "545C23F1ABD4F820"
+					type: "item"
+					item: "industrialforegoing:laser_lens6"
+				}
+				{
+					id: "77E10F0966DBC959"
+					type: "item"
+					item: "industrialforegoing:laser_lens7"
+				}
+				{
+					id: "6992F1FFD4D0FD37"
+					type: "item"
+					item: "industrialforegoing:laser_lens8"
+				}
+				{
+					id: "71258A300EF9FAEC"
+					type: "item"
+					item: "industrialforegoing:laser_lens9"
+				}
+				{
+					id: "7E8457E83C5062A5"
+					type: "item"
+					item: "industrialforegoing:laser_lens11"
+				}
+				{
+					id: "25EC259E93C8673D"
+					type: "item"
+					item: "industrialforegoing:laser_lens12"
+				}
+				{
+					id: "5E56F5BF58CD5E91"
+					type: "item"
+					item: "industrialforegoing:laser_lens13"
+				}
+				{
+					id: "5FFEEC1D5FCC465C"
+					type: "item"
+					item: "industrialforegoing:laser_lens14"
+				}
+				{
+					id: "37922C4F01A0EC8B"
+					type: "item"
+					item: "industrialforegoing:laser_lens15"
+				}
+				{
+					id: "62D48C97F9E1C542"
+					type: "item"
+					item: "industrialforegoing:laser_lens10"
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -3.5d
+			description: ["Ore laser base with a few laser drills can produce ores depending on the lense you put in the laser base."]
+			dependencies: ["11A78A8BBF65F111"]
+			id: "50904CBAF92B6B9E"
+			tasks: [{
+				id: "2D5EF8AC1978FAA3"
+				type: "item"
+				item: "industrialforegoing:ore_laser_base"
+			}]
+		}
+		{
+			x: -2.0d
+			y: 3.0d
+			dependencies: ["5388D0A3C7355C25"]
+			id: "4A0B3F1D9E52E877"
+			tasks: [{
+				id: "23DFE95DF6EBB279"
+				type: "custom"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftblibrary:textures/icons/cancel.png"
+					}
+				}
+			}]
+		}
+	]
+}
